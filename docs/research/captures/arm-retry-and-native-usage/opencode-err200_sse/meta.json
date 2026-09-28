@@ -1,0 +1,20 @@
+{
+  "arm": "opencode",
+  "scenario": "err200_sse",
+  "exit_code": 1,
+  "timed_out_after_s": null,
+  "wall_s": 7.39,
+  "command": [
+    "opencode.cmd",
+    "run",
+    "--format",
+    "json",
+    "--dir",
+    "C:\\tmp\\hbt5\\runs\\opencode-err200_sse\\ws",
+    "--pure",
+    "-m",
+    "mockollama/MOCK-2.6B",
+    "--dangerously-skip-permissions",
+    "Reply with the single word done."
+  ]
+}

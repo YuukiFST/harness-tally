@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 14:30:26 GMT
+Content-Type: text/markdown; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Reporting-Endpoints: cf-hboieghamzxxbmfb="https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=Xm2vYVDeYLbeeCGYuCAdQCtyvjlPyUyDzVfcl5Omo.Q-1790346626.4184-1.0.1.1-H9dCF69vJxd1EfJk0XrMUQ1pqkHEuZ164E3t_fSeQUt2pqxFnivlX.9F0oayXiBjo8iupiYd54gFerkcimss94WtJL_F_s1Pl.LnMImwfzDXlyOdOuZurSHam1TDyafnGqCpGRpfT8e6d02S37gFlgrs_jklDqXD4yzulofmkpqcKoYFryKs3T8rIOXg.4Yzn4VoWZFD5JsP_B6kddJnGA"
+Strict-Transport-Security: max-age=15552000; preload
+X-Content-Type-Options: nosniff
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding, accept
+set-cookie: __cf_bm=omrRmpGZet1ZEHo4e0mXarzerdrpTG0q8SfLfErV2js-1790346626.4184-1.0.1.1-HhWuVCSwPW9gudDGy8OIUD0PRlZvaqUTBBGrUFUwm_6ZvDaPVjcOqXwKEjdGjRQak27P7XeRWRgamEnNaBjz_NtgcNyd.o7D8P6iZP8HuKHfDMyEs4duObUM2lM9lxAk; HttpOnly; SameSite=None; Secure; Path=/; Domain=developers.cloudflare.com; Expires=Fri, 25 Sep 2026 15:00:26 GMT
+Content-Security-Policy: form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflarestream.com *.cloudflarestream.com cloudflareinsights.com *.cloudflareinsights.com cloudflare.com *.cloudflare.com google.com *.google.com demandbase.com *.demandbase.com bizible.com *.bizible.com jsdelivr.net *.jsdelivr.net 'wasm-unsafe-eval' 'unsafe-inline'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=Xm2vYVDeYLbeeCGYuCAdQCtyvjlPyUyDzVfcl5Omo.Q-1790346626.4184-1.0.1.1-H9dCF69vJxd1EfJk0XrMUQ1pqkHEuZ164E3t_fSeQUt2pqxFnivlX.9F0oayXiBjo8iupiYd54gFerkcimss94WtJL_F_s1Pl.LnMImwfzDXlyOdOuZurSHam1TDyafnGqCpGRpfT8e6d02S37gFlgrs_jklDqXD4yzulofmkpqcKoYFryKs3T8rIOXg.4Yzn4VoWZFD5JsP_B6kddJnGA; report-to cf-hboieghamzxxbmfb
+Report-To: {"group":"cf-hboieghamzxxbmfb","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=Xm2vYVDeYLbeeCGYuCAdQCtyvjlPyUyDzVfcl5Omo.Q-1790346626.4184-1.0.1.1-H9dCF69vJxd1EfJk0XrMUQ1pqkHEuZ164E3t_fSeQUt2pqxFnivlX.9F0oayXiBjo8iupiYd54gFerkcimss94WtJL_F_s1Pl.LnMImwfzDXlyOdOuZurSHam1TDyafnGqCpGRpfT8e6d02S37gFlgrs_jklDqXD4yzulofmkpqcKoYFryKs3T8rIOXg.4Yzn4VoWZFD5JsP_B6kddJnGA"}]}
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+Server: cloudflare
+CF-RAY: a40aba0f1b0419cb-GIG
+alt-svc: h3=":443"; ma=86400
+

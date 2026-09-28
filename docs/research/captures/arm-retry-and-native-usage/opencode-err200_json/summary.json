@@ -1,0 +1,35 @@
+{
+  "arm": "opencode",
+  "scenario": "err200_json",
+  "exit_code": 0,
+  "timed_out_after_s": null,
+  "mock": {
+    "step_requests": 1,
+    "aux_requests": 1,
+    "distinct_step_hashes": 1,
+    "step_gaps_ms": [],
+    "first_to_last_step_ms": 0,
+    "stainless_retry_count": []
+  },
+  "native": {
+    "step_finish": [
+      {
+        "reason": "unknown",
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        }
+      }
+    ],
+    "errors": [],
+    "event_types": [
+      "step_finish",
+      "step_start"
+    ]
+  }
+}

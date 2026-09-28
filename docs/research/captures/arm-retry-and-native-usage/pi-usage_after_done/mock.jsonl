@@ -1,0 +1,1 @@
+{"idx": 0, "t_in_ms": 9651.8, "method": "POST", "path": "/v1/chat/completions", "kind": "step", "n_messages": 2, "max_tokens": 4096, "messages_hash": "2cd84fc319aec016", "stream": true, "stream_options": {"include_usage": true}, "retry_headers": {"X-Stainless-Retry-Count": "0"}, "action": "usage_after_done", "outcome": "sent", "t_out_ms": 9652.9}

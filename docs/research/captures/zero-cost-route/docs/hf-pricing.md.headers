@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Content-Type: text/markdown; charset=utf-8
+Content-Length: 11575
+Connection: keep-alive
+Date: Fri, 25 Sep 2026 14:30:35 GMT
+ETag: W/"2d37-4jqGKSG/rz91J2cbz3t41pmivXs"
+X-Powered-By: huggingface-moon
+X-Request-Id: Root=1-6ab6858a-0f80690409923a903196cb30
+RateLimit: "pages";r=99;t=193
+RateLimit-Policy: "fixed window";"pages";q=100;w=300
+cross-origin-opener-policy: same-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Language: en
+X-Cache: Miss from cloudfront
+Via: 1.1 4943d34f867c703cc6a2ad7c90f66dca.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: GRU1-P3
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: NLJffSEgcrUQdis3HIPyBbtld2K-HNdl_aUWUUDL75QmmN6G1talhw==
+Strict-Transport-Security: max-age=31536000
+

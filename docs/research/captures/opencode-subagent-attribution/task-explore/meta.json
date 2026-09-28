@@ -1,0 +1,70 @@
+{
+  "scenario": "task-explore",
+  "command": [
+    "opencode.exe",
+    "run",
+    "--format",
+    "json",
+    "--dir",
+    "C:\\tmp\\hbsub-sandbox\\task-explore\\ws",
+    "--pure",
+    "-m",
+    "mockollama/MOCK-2.6B",
+    "--dangerously-skip-permissions",
+    "--title",
+    "unit-01",
+    "Delegate one probe task to a subagent, then reply with the single word done."
+  ],
+  "exit_code": 0,
+  "wall_s": 20.04,
+  "max_inflight": 1,
+  "task_calls": [
+    {
+      "description": "probe B",
+      "prompt": "SUBTASK-PROBE-B: reply with ok",
+      "subagent_type": "explore"
+    }
+  ],
+  "child_forced_prompt_tokens": null,
+  "readback_exit": {
+    "db-tables": 0,
+    "db-sessions": 0,
+    "db-assistant-messages": 0,
+    "db-step-finish": 0,
+    "export-ses_f2702388dffelUWgHVC6El2opK": 0,
+    "export-ses_f27021a38ffeK1evTkcCrhGQWa": 0
+  },
+  "provider_config": {
+    "$schema": "https://opencode.ai/config.json",
+    "provider": {
+      "mockollama": {
+        "npm": "@ai-sdk/openai-compatible",
+        "name": "Subagent mock",
+        "options": {
+          "baseURL": "http://127.0.0.1:65392/v1",
+          "apiKey": "layer1",
+          "timeout": 120000,
+          "chunkTimeout": 60000
+        },
+        "models": {
+          "MOCK-2.6B": {
+            "limit": {
+              "context": 32768,
+              "output": 4096
+            }
+          }
+        }
+      }
+    },
+    "model": "mockollama/MOCK-2.6B",
+    "small_model": "mockollama/MOCK-2.6B",
+    "permission": {
+      "*": "allow",
+      "external_directory": "deny",
+      "question": "deny",
+      "webfetch": "deny",
+      "websearch": "deny",
+      "doom_loop": "deny"
+    }
+  }
+}

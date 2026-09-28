@@ -1,0 +1,104 @@
+{
+  "root_session": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+  "requests": [
+    {
+      "seq": 0,
+      "class": "root",
+      "session": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+      "parent_header": null,
+      "mock_kind": "parent_task_call",
+      "has_task_tool": true,
+      "n_tools": 9,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    },
+    {
+      "seq": 1,
+      "class": "child",
+      "session": "ses_f2700cb4affez6j0054ev9k6Y5",
+      "parent_header": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+      "mock_kind": "child_step_forced_overflow",
+      "has_task_tool": false,
+      "n_tools": 8,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    },
+    {
+      "seq": 2,
+      "class": "child",
+      "session": "ses_f2700cb4affez6j0054ev9k6Y5",
+      "parent_header": null,
+      "mock_kind": "toolless",
+      "has_task_tool": false,
+      "n_tools": 0,
+      "system_head": "You are an anchored context summarization assistant for codi"
+    },
+    {
+      "seq": 3,
+      "class": "child",
+      "session": "ses_f2700cb4affez6j0054ev9k6Y5",
+      "parent_header": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+      "mock_kind": "text_step",
+      "has_task_tool": false,
+      "n_tools": 8,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    },
+    {
+      "seq": 4,
+      "class": "root",
+      "session": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+      "parent_header": null,
+      "mock_kind": "text_step",
+      "has_task_tool": true,
+      "n_tools": 9,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    }
+  ],
+  "per_session": {
+    "ses_f2700cb4affez6j0054ev9k6Y5": {
+      "wire": {
+        "requests": 3,
+        "prompt": 30714,
+        "completion": 15,
+        "kinds": [
+          "child_step_forced_overflow",
+          "toolless",
+          "text_step"
+        ]
+      },
+      "native_rollup": {
+        "parent_id": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+        "agent": "general",
+        "input": 30714,
+        "output": 15
+      },
+      "rollup_equals_wire": true
+    },
+    "ses_f2700deaeffe1VSf2qBSlPwvDn": {
+      "wire": {
+        "requests": 2,
+        "prompt": 614,
+        "completion": 10,
+        "kinds": [
+          "parent_task_call",
+          "text_step"
+        ]
+      },
+      "native_rollup": {
+        "parent_id": null,
+        "agent": "build",
+        "input": 614,
+        "output": 10
+      },
+      "rollup_equals_wire": true
+    }
+  },
+  "stdout_step_finish": {
+    "input": 614,
+    "output": 10,
+    "events": 2
+  },
+  "child_requests": 3,
+  "child_requests_without_parent_header": 1,
+  "root_requests_with_parent_header": 0,
+  "wire_prompt_total": 31328,
+  "native_rollup_input_total": 31328
+}

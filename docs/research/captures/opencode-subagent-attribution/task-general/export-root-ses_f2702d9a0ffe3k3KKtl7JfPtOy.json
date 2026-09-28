@@ -1,0 +1,240 @@
+{
+  "info": {
+    "id": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+    "slug": "lucky-otter",
+    "projectID": "global",
+    "directory": "C:\\tmp\\hbsub-sandbox\\task-general\\ws",
+    "path": "tmp/hbsub-sandbox/task-general/ws",
+    "title": "Mock summary",
+    "agent": "build",
+    "model": {
+      "id": "MOCK-2.6B",
+      "providerID": "mockollama",
+      "variant": "default"
+    },
+    "version": "1.17.9",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 614,
+      "output": 10,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "permission": [
+      {
+        "permission": "question",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_enter",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_exit",
+        "pattern": "*",
+        "action": "deny"
+      }
+    ],
+    "time": {
+      "created": 1790346864223,
+      "updated": 1790346873500
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1790346868000
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "mockollama",
+          "modelID": "MOCK-2.6B"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0d8fd35200018CKnZed2kooaHe",
+        "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "\"Delegate one probe task to a subagent, then reply with the single word done.\"",
+          "id": "prt_0d8fd35bc0017QPwCO0wExebzp",
+          "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+          "messageID": "msg_0d8fd35200018CKnZed2kooaHe"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0d8fd35200018CKnZed2kooaHe",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\tmp\\hbsub-sandbox\\task-general\\ws",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 211,
+          "input": 207,
+          "output": 4,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "MOCK-2.6B",
+        "providerID": "mockollama",
+        "time": {
+          "created": 1790346868617,
+          "completed": 1790346871517
+        },
+        "finish": "tool-calls",
+        "id": "msg_0d8fd3789001Y8VrTGRezaChd9",
+        "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_0d8fd3dc1001HOheW3NYl28I6v",
+          "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+          "messageID": "msg_0d8fd3789001Y8VrTGRezaChd9"
+        },
+        {
+          "type": "tool",
+          "tool": "task",
+          "callID": "call_task_0",
+          "state": {
+            "status": "completed",
+            "input": {
+              "description": "probe A",
+              "prompt": "SUBTASK-PROBE-A: reply with ok",
+              "subagent_type": "general"
+            },
+            "output": "<task id=\"ses_f2702c22fffewqTWQ3wE4AdYTJ\" state=\"completed\">\n<task_result>\nok\n</task_result>\n</task>",
+            "metadata": {
+              "parentSessionId": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+              "sessionId": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+              "model": {
+                "modelID": "MOCK-2.6B",
+                "providerID": "mockollama"
+              },
+              "truncated": false
+            },
+            "title": "probe A",
+            "time": {
+              "start": 1790346870231,
+              "end": 1790346871478
+            }
+          },
+          "id": "prt_0d8fd3dc5001X7gF584XcBbYqs",
+          "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+          "messageID": "msg_0d8fd3789001Y8VrTGRezaChd9"
+        },
+        {
+          "reason": "tool-calls",
+          "type": "step-finish",
+          "tokens": {
+            "total": 211,
+            "input": 207,
+            "output": 4,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 0
+            }
+          },
+          "cost": 0,
+          "id": "prt_0d8fd42cc001aL0HuJL84IZRXh",
+          "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+          "messageID": "msg_0d8fd3789001Y8VrTGRezaChd9"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0d8fd35200018CKnZed2kooaHe",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "C:\\tmp\\hbsub-sandbox\\task-general\\ws",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 413,
+          "input": 407,
+          "output": 6,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "MOCK-2.6B",
+        "providerID": "mockollama",
+        "time": {
+          "created": 1790346871524,
+          "completed": 1790346872987
+        },
+        "finish": "stop",
+        "id": "msg_0d8fd42e40011kMoM4k0gpWTpV",
+        "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_0d8fd4873001dFo9w8e8mybX6D",
+          "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+          "messageID": "msg_0d8fd42e40011kMoM4k0gpWTpV"
+        },
+        {
+          "type": "text",
+          "text": "ok",
+          "time": {
+            "start": 1790346872969,
+            "end": 1790346872976
+          },
+          "id": "prt_0d8fd4889001kmzBPOQYyzAztG",
+          "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+          "messageID": "msg_0d8fd42e40011kMoM4k0gpWTpV"
+        },
+        {
+          "reason": "stop",
+          "type": "step-finish",
+          "tokens": {
+            "total": 413,
+            "input": 407,
+            "output": 6,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 0
+            }
+          },
+          "cost": 0,
+          "id": "prt_0d8fd48940013whCvbhYlwwqEC",
+          "sessionID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+          "messageID": "msg_0d8fd42e40011kMoM4k0gpWTpV"
+        }
+      ]
+    }
+  ]
+}

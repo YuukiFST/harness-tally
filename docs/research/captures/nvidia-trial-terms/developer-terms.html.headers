@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Security-Policy: default-src 'self' https: data: blob:; connect-src 'self' https: data: https://typesense.svc.nvidia.com wss://*.nvidiagrid.net:* *.nvidiagrid.net https://developer.nvidia.com:*; frame-ancestors 'self' nvidia.lookbookhq.com nvidia.pathfactory.com resources.nvidia.com www.nvidia.com www.nvidia.cn; font-src 'self' https: data: https://developer.nvidia.com:*; img-src 'self' https: data: https://developer.nvidia.com:*; object-src https://www.youtube.com; script-src 'self' https: 'unsafe-inline' 'unsafe-eval' https://assets.adobedtm.com https://munchkin.marketo.net http://www.youtube.com/iframe_api https://developer.nvidia.com:*; style-src 'self' https: 'unsafe-inline' https://developer.nvidia.com:*; worker-src 'self' https: blob: https://developer.nvidia.com https://developer.nvidia.com:*
+Content-Type: text/html; charset=utf-8
+ETag: W/"6655489e75f43f1264edb57b9ee0a70b"
+Link: <https://developer.nvidia.com/assets/application-9e4a823de8771e59cf1ae04de333e5e14d86a990b878d196a65779d7140a6415.css>; rel=preload; as=style; nopush,<https://developer.nvidia.com/assets/one-trust-bea625cf16a072ce5fdb0707a19f2645daf63c05eb1a016db72773eba008fc07.css>; rel=preload; as=style; nopush,<https://cdn.cookielaw.org/scripttemplates/otSDKStub.js>; rel=preload; as=script; nopush,<https://images.nvidia.com/aem-dam/Solutions/ot-js/ot-custom.js>; rel=preload; as=script; nopush,<https://assets.adobedtm.com/5d4962a43b79/c1061d2c5e7b/launch-191c2462b890.min.js>; rel=preload; as=script; nopush,<https://developer.nvidia.com/assets/bootstrap/5.1.3/bootstrap.bundle.min-51ad1d8cab4ebd9873a0429f5e67ca717a71fd96daf8025bc04a88848e5b375c.js>; rel=preload; as=script; nopush,<https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js>; rel=preload; as=script; nopush
+Referrer-Policy: strict-origin-when-cross-origin
+Server: Heroku
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: dde7d783-83fe-2f0b-853f-d630868461b9
+X-Runtime: 0.027434
+X-Xss-Protection: 0
+X-EdgeConnect-MidMile-RTT: 24
+X-EdgeConnect-Origin-MEX-Latency: 161
+X-Akamai-Transformed: 0 - 0 -
+Date: Fri, 25 Sep 2026 14:41:01 GMT
+Transfer-Encoding:  chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+Set-Cookie: nv_country_code=BR; path=/; SameSite=Lax; secure
+Set-Cookie: _devzone_session=9691dac1772a36ffce557cebbe2f363f; path=/; expires=Fri, 09 Oct 2026 14:41:00 GMT; secure; HttpOnly
+x-accept: */*
+x-ak-request-id: 0.48fbd217.1790347260.2b22072
+x-property-version: us-135
+Set-Cookie: ak_bmsc=A6751DBD8AB46D596220EAEEC58F93F0~000000000000000000000000000000~YAAQSPvSF0rpu5qgAQAAYTUD2QHY4sQh+wuG0TA4INNUUzHQnQmmeQPgz6tSQu/XP5kOTcBMCW47i6G4Snz9yrOAgMxitJ4j0fNc+CQ+DY1LITCzwrvHJh/Q3sAaLuEm9EYdiPMJb1lpE8Ypd2Pr2npG7M6Ht/W+e1X+5IcyG2rPbmmDss0t7QPxUqbMbju27WzOdLkIZUTZ9vduUBMCvA6FJCADcq1oOuHKtgUMqnbuVC4AhKIPx1g0KKID+KS/sZG53VIYxM/W2E9QeMQeTfaoydDUBg/DDhchqeR+px8Jsb+LcX5ZN8dpwLPYbDCvv0lglFkDZAwi7G219XKijf9Nsq/Z1lv+1EsQ/8nYYvw621xzw9iTetIg1xkPVwNs; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 16:41:00 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=E48BC6F1451BE5BB3BA134EDE8FCE89B~YAAQSPvSF0vpu5qgAQAAYTUD2QFSF0UZDpRoSfLXZaqSQ8JVNyN74kHU+QQaiDxHlX1FkYR9YP16qG81anLCpJdh+rd5RXl8bXyg9D7e7jzKDI0pK9Yg9Cmxg/YM9TOa6b8kEhGUwjc5GJRVyqZXfVnIps1h8Oso5qnGroc551DbzYNy+GR3dzCtlHGV+Ro4q/ccaJ1CmMUfQo1cLy/Y9H2th/MO8TueF7rYu9CF5WTsd6OzoTfj18s9LjMXCx6W0i9mlOQtPDY3y2yP17c5HLacXCO7F4t1iS6xpQwGh+slfJNh9GgL65C9rssEiwUBEp5GwCq7DrF7~1; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 14:41:01 GMT; Max-Age=0; Secure
+

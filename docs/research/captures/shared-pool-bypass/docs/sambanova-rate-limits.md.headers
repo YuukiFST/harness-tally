@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx/1.20.1
+Date: Mon, 28 Sep 2026 10:56:19 GMT
+Content-Type: text/markdown; charset=utf-8
+Content-Length: 4759
+Connection: keep-alive
+Age: 60575
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline
+Content-Security-Policy: default-src 'none'
+Link: </docs/llms.txt>; rel="llms-txt", </docs/llms-full.txt>; rel="llms-full-txt", </docs/.well-known/api-catalog>; rel="api-catalog", </docs/.well-known/mcp/server-card.json>; rel="mcp-server-card", </docs/.well-known/agent-card.json>; rel="agent-card", </docs/.well-known/agent-skills/index.json>; rel="agent-skills"
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Llms-Txt: /docs/llms.txt
+X-Matched-Path: /_mintlify/_markdown/_sites/[subdomain]/[[...slug]]
+X-Robots-Tag: noindex
+X-Vercel-Cache: HIT
+X-Vercel-Id: sfo1::iad1::msp22-1790592979567-c5c0fbbad2a3
+

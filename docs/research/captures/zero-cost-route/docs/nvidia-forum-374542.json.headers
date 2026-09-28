@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+server: nginx
+date: Fri, 25 Sep 2026 14:31:27 GMT
+content-type: application/json; charset=utf-8
+content-length: 21968
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+x-xss-protection: 0
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+referrer-policy: strict-origin-when-cross-origin
+x-discourse-route: topics/show
+cache-control: no-cache, no-store
+x-discourse-cached: skip
+x-request-id: 94484825-93a2-440a-8dd3-73472ce0dce3
+cdck-proxy-id: app-router-tieadvanced01.sea2
+strict-transport-security: max-age=31536000
+cdck-proxy-id: app-balancer-tieinterceptor1b.sea2
+

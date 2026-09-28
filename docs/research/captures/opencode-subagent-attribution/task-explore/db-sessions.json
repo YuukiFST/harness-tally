@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ses_f2702388dffelUWgHVC6El2opK",
+    "parent_id": null,
+    "agent": "build",
+    "title": "unit-01",
+    "tokens_input": 414,
+    "tokens_output": 8,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  },
+  {
+    "id": "ses_f27021a38ffeK1evTkcCrhGQWa",
+    "parent_id": "ses_f2702388dffelUWgHVC6El2opK",
+    "agent": "explore",
+    "title": "probe B (@explore subagent)",
+    "tokens_input": 207,
+    "tokens_output": 4,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

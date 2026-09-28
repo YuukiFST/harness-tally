@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 13:31:20 GMT
+Content-Type: text/markdown; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Ray: a40a637e0a0199ea-GIG
+CF-Cache-Status: DYNAMIC
+Age: 10981
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Link: </docs/llms.txt>; rel="llms-txt", </docs/llms-full.txt>; rel="llms-full-txt", </docs/.well-known/api-catalog>; rel="api-catalog", </docs/.well-known/mcp/server-card.json>; rel="mcp-server-card", </docs/.well-known/agent-card.json>; rel="agent-card", </docs/.well-known/agent-skills/index.json>; rel="agent-skills"
+Server: cloudflare
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Llms-Txt: /docs/llms.txt
+X-Matched-Path: /_mintlify/_markdown/_sites/[subdomain]/[[...slug]]
+X-Robots-Tag: noindex
+X-Vercel-Cache: HIT
+X-Vercel-Id: gru1::iad1::92w8h-1790343080652-aa41f2901382
+set-cookie: __cf_bm=jwQNKgRgd7JPsGHlwug3C3iFDWFzbCCCwHCO6YO_Haw-1790343080.6432493-1.0.1.1-itXLDYx6dTUIPnVtPEMlE8s3ayGYfEI3d3quB5DrLHp8f6F7E.SXq5K4oRIbVnKTxJdJeLQtAu1hyGcHL27eAnV7kjbbR79I5uShbb75EKSE.wxZ3cG5IXik1OboFBB0; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Fri, 25 Sep 2026 14:01:20 GMT
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+

@@ -1,0 +1,20 @@
+# GET https://openrouter.ai/api/v1/generation?id=gen-1790352326-DF6TqpPSdIpM5qFJU7Bi at 2026-09-25T16:06:31Z (Authorization sent, not recorded)
+# ---- response headers ----
+HTTP/1.1 404 Not Found
+Date: Fri, 25 Sep 2026 16:06:31 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: BYPASS
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-store
+Access-Control-Expose-Headers: X-Generation-Id,X-Provider-Name,request-id,cf-ray
+set-cookie: __cf_bm=kTCw_E0DHx6qkP54DrxAsHxSHTpMKNoFYKT1NsHx5BA-1790352391.119155-1.0.1.1-CLSib9IfXNv7CP4DS5aD2gUnu9MXmInnAYSgfC1OnmJSqcLsg1nzlSZSqf67FyrA3Y6mpwXWvXOgxFT0._LjJ4RhhXrY7migun7no_KkMnL0NyWEOQaIUaBggs.prQfa; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Fri, 25 Sep 2026 16:36:31 GMT
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: a40b46cc7f267e11-GIG
+
+# ---- response body ----
+{"error":{"message":"Generation gen-1790352326-DF6TqpPSdIpM5qFJU7Bi not found","code":404}}

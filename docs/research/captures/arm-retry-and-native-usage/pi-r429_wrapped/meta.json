@@ -1,0 +1,16 @@
+{
+  "arm": "pi",
+  "scenario": "r429_wrapped",
+  "exit_code": 0,
+  "timed_out_after_s": null,
+  "wall_s": 8.52,
+  "command": [
+    "pi.cmd",
+    "--mode",
+    "json",
+    "--no-session",
+    "--model",
+    "mockollama/MOCK-2.6B",
+    "Reply with the single word done."
+  ]
+}

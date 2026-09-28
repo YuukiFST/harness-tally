@@ -1,0 +1,17 @@
+[
+  {
+    "session_id": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+    "message_id": "msg_0d8fd3e22001TOjWAHacmKz8Ts",
+    "tokens": "{\"total\":312,\"input\":307,\"output\":5,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  },
+  {
+    "session_id": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+    "message_id": "msg_0d8fd3789001Y8VrTGRezaChd9",
+    "tokens": "{\"total\":211,\"input\":207,\"output\":4,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  },
+  {
+    "session_id": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+    "message_id": "msg_0d8fd42e40011kMoM4k0gpWTpV",
+    "tokens": "{\"total\":413,\"input\":407,\"output\":6,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  }
+]

@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+Edge-Cache-Tag: /en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/this/,/en-us/agreements/enterprise-software/nvidia-nemotron-open-model-license/,/en-us/agreements/enterprise-software/,/en-us/agreements/,/en-us/
+Last-Modified: Fri, 25 Sep 2026 11:06:00 GMT
+ETag: "48e92-65c4cb3941f9b"
+Content-Security-Policy: frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;
+ServerID: prod-web01
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+X-Akamai-Transformed: 0 - 0 -
+Date: Fri, 25 Sep 2026 14:40:45 GMT
+Transfer-Encoding:  chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+x-accept: */*
+Set-Cookie: c_code=BR; Domain=nvidia.com; Path=/; Secure
+nv-defunct-locale-redirection: executed
+AK_EC_TYPE: LOCALE_ERD_POLICY
+Akamai-Cache-Status: Miss from child
+x-cdn-version: v449
+x-cdn: akam
+Set-Cookie: ak_bmsc=92CE6B794ED9DBEA364408008F444B66~000000000000000000000000000000~YAAQTfvSF7bY4NSgAQAAiPYC2QF5clSlpL1dJbJRs97Uql/P+sDIxyT6s4MwP0HRzrgjWpKahOATIn91gepzDUlzJxLQr+VrKPaFG0rQbJ3GYoFBLG1m5jJQF+/Zy9dqMongxmjw6nCpBdQIwY9ZwjbOtuQgE0L7bnzYUYChkCduewTDy06Z9wGnjwkszh6BDjvWdohmscTGF7zJO5cgP6jbCZBVZYb8URIxt+L05AjdJzXcHadkrQSHZAXoOdJ6nn6AHoliV+7aneIJoc37saoodR75fvVav6Hm9tT5Lu1ZWkKit7gfuq87kKZIoQ1UNmAjZCrT/zmS5RehaQFDizU8sKaI4yBqfnZ4xQX521BbPrA82jwWU/hlwgUGRMui; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 16:40:44 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=D54F7C03A73905426DEC29AD81616115~YAAQTfvSF7fY4NSgAQAAiPYC2QEckD3joEto0zyqYQwAdDdgc5IU62FAAnVoQgLhB4OWdrONOfy+GWuqjEPxMsSZjy5yX7KoNV35Qc7BvpAKlJT6k4YVK4TDHhgt7iCt/SmDfZHuqOnIV/PiWDXCOajn2r5BBlez2GhK9OmPDdBo3/4AkRk8Dki7ZIDNU99K1pzwGVueCC5P227r+EDSj1Hu8jHNxpx5oHD2wWnLouXiOFOVXaOkhL5hd6vo153epJiUjBeUy6UBnXqP6hf4OBXRIVDyZUpKZEdon26MjhDcfXLjyQDcx55Qf67abW+VV2VFdKpefZdi1Yq1SDhF7pCXTPJDPEuYF0WHprihkmX6jlOBT9GUnLE+/5XRxsFpnEL/z8fvuEaHRS2qcmPIq5UkWWqhGA==~1; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 14:40:45 GMT; Max-Age=0; Secure
+

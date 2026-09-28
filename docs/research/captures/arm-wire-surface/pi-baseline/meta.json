@@ -1,0 +1,61 @@
+{
+  "scenario": "pi-baseline",
+  "arm": "pi",
+  "command": [
+    "pi.cmd",
+    "--mode",
+    "json",
+    "--no-session",
+    "--model",
+    "mockollama/MOCK-2.6B",
+    "Read hello.txt and reply with its first line."
+  ],
+  "env_tags": {
+    "HB_RUN_ID": "run-0001",
+    "HB_UNIT_ID": "unit-01"
+  },
+  "extra_env": {},
+  "pi_settings": null,
+  "exit_code": 0,
+  "wall_s": 10.83,
+  "max_inflight": 1,
+  "provider_config": {
+    "providers": {
+      "mockollama": {
+        "baseUrl": "http://127.0.0.1:61300/v1",
+        "api": "openai-completions",
+        "apiKey": "layer1",
+        "compat": {
+          "supportsDeveloperRole": false,
+          "supportsReasoningEffort": false
+        },
+        "models": [
+          {
+            "id": "MOCK-2.6B",
+            "name": "Wire mock",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 32768,
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "maxTokens": 4096,
+            "headers": {
+              "x-hb-model-header": "model-level"
+            }
+          }
+        ],
+        "headers": {
+          "x-hb-run": "$HB_RUN_ID",
+          "x-hb-unit": "${HB_UNIT_ID}",
+          "x-hb-static": "literal-value"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "arm": "pi",
+  "scenario": "err200_json",
+  "exit_code": 0,
+  "timed_out_after_s": null,
+  "mock": {
+    "step_requests": 4,
+    "aux_requests": 0,
+    "distinct_step_hashes": 1,
+    "step_gaps_ms": [
+      2046,
+      4046,
+      8029
+    ],
+    "first_to_last_step_ms": 14122,
+    "stainless_retry_count": [
+      "0"
+    ]
+  },
+  "native": {
+    "assistant_message_end": [
+      {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "reasoning": null,
+        "totalTokens": 0,
+        "stopReason": "error",
+        "errorMessage": "Stream ended without finish_reason"
+      },
+      {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "reasoning": null,
+        "totalTokens": 0,
+        "stopReason": "error",
+        "errorMessage": "Stream ended without finish_reason"
+      },
+      {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "reasoning": null,
+        "totalTokens": 0,
+        "stopReason": "error",
+        "errorMessage": "Stream ended without finish_reason"
+      },
+      {
+        "input": 0,
+        "output": 0,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "reasoning": null,
+        "totalTokens": 0,
+        "stopReason": "error",
+        "errorMessage": "Stream ended without finish_reason"
+      }
+    ],
+    "agent_end_count": 4,
+    "agent_end_willRetry": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "final_agent_end_assistant_usage": [
+      {
+        "input": 0,
+        "output": 0,
+        "totalTokens": 0
+      }
+    ],
+    "auto_retry_start": [
+      {
+        "attempt": 1,
+        "maxAttempts": 3,
+        "delayMs": 2000
+      },
+      {
+        "attempt": 2,
+        "maxAttempts": 3,
+        "delayMs": 4000
+      },
+      {
+        "attempt": 3,
+        "maxAttempts": 3,
+        "delayMs": 8000
+      }
+    ],
+    "auto_retry_end": [
+      {
+        "success": false,
+        "attempt": 3,
+        "finalError": "Stream ended without finish_reason"
+      }
+    ]
+  }
+}

@@ -1,0 +1,571 @@
+
+Modular: Terms of Service
+Back
+Product
+Solutions
+Resources
+Open Source
+Docs
+Blog
+Company
+Request a demo
+Sign up
+Inference Products
+Shared Endpoints
+Access frontier models via an API
+Dedicated Endpoints
+Mission critical reliability
+Custom models
+Your model, peak performance
+Deployment Options
+Our Cloud
+Fully managed, pay by usage
+Your Cloud
+Modular stack in your VPC
+Pricing
+Flexible plans for every team
+Models
+FLUX.2 Klein 4B
+GLM 5.3 Flash
+MiniMax M3
+Kimi K2.7 Code
+GLM 5.3
+View All
+Text to audio
+Turn text into natural speech
+Image generation
+Generate images from text prompts
+Code generation
+Generate production-ready code
+Video generation
+Generate video from text + image
+Agentic
+Deploy AI agents anywhere
+Custom Models
+Kernel-level model control
+Case Studies
+Proven results from real customers
+Models
+FLUX.2 Klein 4B
+GLM 5.3 Flash
+MiniMax M3
+Kimi K2.7 Code
+GLM 5.3
+View All
+Model Library
+Latest supported open models
+LLM Inference Handbook
+How inference works, from basics to production
+MAX LLM Book
+Build a modern LLM from the ground up
+Mojo Quest
+Learn Mojo through guided challenges
+Mojo GPU Puzzles
+Hands-on GPU programming, puzzle by puzzle
+MAX
+GenAI native modeling & serving
+Mojo
+The systems language for the AI era
+Self-Hosted
+MAX+Mojo self-hosted by you
+Community
+Build the future of AI together
+Agentic Skills
+Official AI agent skills from Modular
+Modular Cloud
+Deploy GenAI models, our cloud or yours
+MAX
+GenAI native modeling & serving
+Mojo
+The systems language for the AI era
+About
+Build AI for anyone, anywhere.
+Careers
+👋  We’re currently hiring!
+Culture
+What we believe
+Contact Us
+Request a demo
+Request a demo
+Sign up
+close
+## Terms of Use
+Last Modified: August 17, 2026
+By indicating your acceptance of this agreement or accessing any Modular Offerings, you are accepting these Terms of Use (this “
+Agreement
+”). You agree that this agreement is enforceable like any written agreement signed by you. This Agreement constitutes a binding contract between you and Modular, and your use of the Modular Offerings is at all times subject to the terms and conditions outlined in this Agreement. If you do not agree to this Agreement, you may not use any Modular Offerings.
+This Agreement is effective as of the date you access any Modular Offerings, or otherwise acknowledge your acceptance of this Agreement. The Agreement is by and between you and Modular Inc with offices located at 199 1st Street, Los Altos, CA 94022, USA
+(“
+Modular
+”, “
+we
+”, or “
+us
+”). 
+This Agreement incorporates by reference all other terms and policies governing your use of the Modular Offerings, including our Modular Community License (
+https://www.modular.com/legal/community
+), Privacy Policy (
+https://www.modular.com/legal/privacy
+), Acceptable AI Use Policy (
+https://www.modular.com/legal/aup
+), Mojo Champions Policy (
+https://www.modular.com/legal/champions
+) and Trademark Policy (
+https://www.modular.com/legal/trademark
+) as well as any other policies we may adopt from time to time, including terms for any contests or events we host or sponsor on the Modular Platform. Capitalized terms used herein but not otherwise defined have the meanings set forth in the applicable supplemental terms.
+1. Definitions
+“Account
+” means the account you set up to access the Modular Platform, and represents your legal and services relationship with Modular.
+“
+AI-Derived Work
+” shall mean any work that is based on (or derived from) Modular IP, including any work created by using any source code, object code, SDK, API, or any part of Modular IP framework(s), as training data for, fine-tuning data for, input to, or reference material for any artificial intelligence system, small language model, large language model, code-generation system, agent, or other automated process, including but not limited to translations, ports, transpilations, refactorings, and reimplementations produced through such systems. Use of “clean-room” reverse engineering does not exempt the work from being included in the scope of this definition, if any part of Modular IP was used as input, reference, or inspiration in the AI-Derived Work’s creation, directly or indirectly.
+“AI-Generated Content”
+ — content produced by the Service using third-party AI models in response to User inputs.
+“
+AI Technologies
+” means deep learning, machine learning, natural language processing, computer vision, robotics, chatbots, expert systems, and other artificial intelligence technologies, including any and all (a) proprietary algorithms, software or systems that make use of or employ neural networks, statistical learning algorithms (like linear and logistic regression, support vector machines, random forests, gradient boosting, k-means clustering), or reinforcement learning, and (b) proprietary embodied AI and related hardware or equipment.
+“Affiliate
+” means an entity that controls, is controlled by, or is under common control with you.
+“Client-Side Software”
+ means any Modular software in source or object code form that Company makes available for use in connection with the Modular Platform, including but not limited to any Modular SDKs.
+“Code”
+ means any software code that you write, develop, or otherwise import for use on the Modular Platform.
+“Derivative Data”
+ means data and information related to or derived from Users of the Modular Platform that has been aggregated and/or anonymized by Modular, including any metrics, feedback, and ratings relating to any Code.
+“
+Derivative Work
+” shall mean any work, whether in source or object form, that is based on (or derived from) Modular materials and for which the editorial revisions, annotations, elaborations, or other modifications either (i) represent, as a whole, an original work of authorship or (ii) AI-Derived Works.
+“Developer” 
+means a User who wrote or otherwise contributed to Code.
+“Documentation”
+ means the Modular documentation at 
+docs.modular.com
+.
+“Harmful Code”
+ means any software, hardware, or other technology, device, or means, including any virus, worm, malware, or other malicious computer code, the purpose or effect of which is to permit unauthorized access to, or to destroy, disrupt, disable, distort, or otherwise harm or impede in any manner any (i) computer, software, firmware, hardware, system, or network; or (ii) any application or function of any of the foregoing or the security, integrity, confidentiality, or use of any data processed thereby.
+“Image Generation Service”
+ — the image generation playground available at www.modular.com
+“Modular Offerings”
+ means Modular Platform, Client-Side Software, and other website functionality as made available to Users from time to time at
+ www.modular.com
+ (or a successor or sub-site).
+“Modular Platform”
+ means Modular’s proprietary, hosted software platform you use to access your Account.
+“Modular IP”
+ means the Modular Platform and any and all intellectual property provided to you or any other User in connection with materials provided by Modular. For the avoidance of doubt, Modular IP includes software, Derivative Data, usage data, Documentation, and any information, data, or other content derived from Modular’s provision of the Modular Platform but does not include User Generated Content.
+“Organization”
+ means a group of Accounts.
+“Organization-Owner”
+ or 
+“Org-Owner”
+ means the User designated as the administrative owner of an Organization.
+“Third-Party Models”
+ means third-party models that power inference services on the Modular Platform.
+“Third-Party Products”
+ means any third-party products provided with, integrated with, or incorporated into the Modular Platform.
+“User,”
+“you,”
+ and 
+“your”
+ refer to the individual person, company, or organization that has visited or is using the Modular Platform; that is a licensee to Modular software; that accesses or uses any part of an Account; or that directs the use of the Account in the performance of its functions. A User must be at least 18 years of age.
+“User Generated Content”
+ means information, data, and other content, in any form or medium, that is submitted, posted, or otherwise transmitted by a User through the Modular Platform, including any Code; provided that, for purposes of clarity, User Generated Content as defined herein does not include Derivative Data.
+2. Account Registration and Requirements
+2.1 - Registration. 
+You must provide a valid email address and password in order to complete the Account signup process. Account registration and provisioning is at Modular’s sole discretion, and signing up for our waitlist does not guarantee that you will be eligible for account registration.
+2.2 - Requirements.
+2.2(A)
+ You must be a human to create an Account. Accounts registered by "bots" or other automated methods are not permitted.
+2.2(B)
+ You must be eighteen (18) years or older. The Children’s Online Privacy Protection Act (“
+COPPA
+”) requires that online service providers obtain parental consent before they knowingly collect personally identifiable information online from children who are under thirteen (13). We do not knowingly collect or solicit personally identifiable information from children under thirteen (13). Users under the age of 18 are not permitted to use Modular. If we learn of any User under the age of 18, we will terminate that User’s Account immediately.
+2.2(C)
+ Your login may only be used by one person. You may not share your Account with others, and you may not use anyone else’s Account.
+2.3 -
+Account Security.
+ You are responsible for keeping your Account secure while you use the Modular Platform. We offer tools to help you maintain your Account's security, but the content of your Account and its security are your responsibility. You are responsible for all content posted and activity that occurs under your Account (even when content is posted by others who have Accounts under your Account). You are responsible for maintaining the security of your Account and password. Modular cannot and will not be liable for any loss or damage from your failure to comply with this security obligation. You will promptly notify Modular if you become aware of any unauthorized use of, or access to, our Modular Platform through your Account, including any unauthorized use of your password or Account.
+2.4 – Organization-Owner Role and Organizational Liability.
+2.4(A) Designation.
+ Each Organization must have at least one User designated as Org-Owner, which is assigned as follows: 
+(i) 
+Self-service registration.
+ If you create an Account through Modular's self-service registration flow and are not being added to a pre-existing Organization at the time of registration, you are designated as the Org-Owner of the newly created Organization by default. 
+(ii) 
+Modular-provisioned organizations.
+ If Modular creates an Organization on your behalf and invites Users to join, the first User invited to that Organization will be designated as Org-Owner.
+2.4(B) Org-Owner Responsibilities.
+ The Org-Owner is responsible for: 
+(i) accepting these Terms of Use on behalf of the Organization; 
+(ii) all activity, usage, and charges incurred through Organization-level API tokens and credentials, regardless of which individual User within the Organization generated such activity; and 
+(iii) ensuring that all Users within the Organization comply with these Terms, the Acceptable AI Use Policy, and any applicable supplemental terms.
+2.4(C) Org-Owner Liability for Organization Tokens.
+ By accepting these Terms as an Org-Owner, you acknowledge and agree that you are personally and organizationally liable for all API token usage associated with the Organization, including usage by any User operating under Organization-level credentials. Modular may enforce claims for unpaid fees, misuse, or policy violations against the Org-Owner where the activity was conducted through Organization-level tokens.
+2.4(D) Transfer of Org-Owner Role.
+ The Org-Owner may designate a replacement Org-Owner as described in the Documentation. An Organization may not remove its last Org-Owner without designating a replacement.
+3. Modular Platform Access and Use. 
+Subject to and conditioned on your compliance with the terms and conditions of this Agreement, Modular hereby grants you a right to access and use the Modular Platform on a non-exclusive, non-transferable, and non-sublicensable basis. The foregoing includes a limited license for Customer to install and use the Client-Side Software in accordance with the Modular Community License Terms (
+https://www.modular.com/legal/community
+).
+3.1 - Use Restrictions.
+ You will not use the Modular Platform for any purposes beyond the scope of the access granted in this Agreement. You will at all times comply with Modular’s Acceptable AI Use Policy (
+https://www.modular.com/legal/aup
+). Without limiting the foregoing, you will not, and will not permit any third party to:
+(i) resell, sublicense, rent, or otherwise make the Modular Platform available to any third party, except as Modular may expressly permit in writing;
+(ii) use the Modular Platform, or any insights derived from your use of the Modular Platform, to design, develop, or assist in developing any product, service, or technology that competes with the Modular Platform;
+(iii) use the Modular Platform as a reference or benchmark to replicate or develop a substitute for the Modular Platform, whether directly or through a third party;
+(iv) reverse engineer, decompile, or disassemble the Modular Platform or Modular IP including through the use of AI Technologies to create any AI-Derived Works, except to the limited extent permitted by applicable law;
+(v) modify, adapt, or create Derivative Works of the Modular Platform except as expressly authorized by Modular;
+(vi) introduce Harmful Code into, or interfere with or disrupt, the Modular Platform;
+(vii) attempt to gain unauthorized access to the Modular Platform or related systems or networks; or
+(viii) publish or disclose the results of any benchmark or competitive evaluation of the Modular Platform unless such disclosure includes sufficient detail and methodology to enable independent replication.
+3.2 - High Risk Activities.
+ You will not use the Modular Platform for high risk activities, where the use or failure of the Modular Platform could reasonably be expected to lead to death, personal injury, or environmental or property damage, including the operation of nuclear facilities, air traffic control, life support systems, or weapons systems. The Modular Platform is not designed or intended for such uses, and Modular disclaims all liability arising from any use of the Modular Platform for High Risk Activities.
+3.3 - Reservation of Rights.
+ Modular reserves all rights not expressly granted to you in this Agreement. Except for the limited rights and licenses expressly granted under this Agreement, nothing in this Agreement grants, by implication, waiver, estoppel, or otherwise, to you or any third party any intellectual property rights or other right, title, or interest in or to the Modular IP.
+3.4 - Suspension.
+ Notwithstanding anything to the contrary in this Agreement, Modular may temporarily suspend your Account and/or access to the Modular Platform if:
+(i) Modular reasonably determines that: (a) there is a threat or attack on any of the Modular IP; (b) your or another User’s use of the Modular IP disrupts or poses a security risk to the Modular IP or to any other User, customer, or vendor of Modular; (c) you are using the Modular IP for fraudulent or illegal activities or in violation of the Acceptable AI Use Policy; (d) Modular’s provision of the Modular Platform to you is prohibited by applicable law; (e) any User Generated Content (including any Code) submitted, posted, or otherwise transmitted by you through the Modular Platform may infringe or otherwise violate any third party’s intellectual property or other rights;
+(ii) any vendor of Modular has suspended or terminated Modular’s access to or use of any Third-Party Products required for the Modular Platform; or
+(iii) in accordance with a violation of any other term of this Agreement (each of (i), (ii), or (iii), a “
+Service Suspension
+”).
+Modular shall use commercially reasonable efforts to provide written notice of any Service Suspension to you and to provide updates regarding resumption of access to the Modular Platform following any Service Suspension. Modular shall use commercially reasonable efforts to resume providing access to the Modular Platform as soon as reasonably possible after the event giving rise to the Service Suspension is cured. Modular will have no liability for any damage, liabilities, losses (including any loss of data or profits), or any other consequences that you or any other User may incur as a result of a Service Suspension.
+3.5 - Derivative Data.
+ Notwithstanding anything to the contrary in this Agreement, Modular may monitor your use of the Modular Platform and collect and compile Derivative Data. As between you and Modular, all right, title and interest in Derivative Data and all intellectual property rights therein, belong to, and are retained solely by, Modular. You acknowledge that Modular may compile Derivative Data based on User Generated Content input into, and transmitted via, the Modular Platform. Notwithstanding anything to the contrary in this Agreement, you further acknowledge that Modular may use and disclose Derivative Data for any lawful purpose.
+3.6
+Image Generation
+3.6(A) No copyright warranty on outputs.
+ AI-generated images may not qualify for copyright protection under current U.S. Copyright Office guidance. Modular makes no representation regarding copyrightability of generated content.
+3.6(B) Third-party model ownership.
+ The underlying models are property of their respective owners. Use of the Service grants no license to model weights, architecture, or technology.
+3.6(C) Content moderation.
+ Modular uses automated content moderation but does not guarantee all outputs will be free of objectionable, infringing, or harmful content. Users remain solely responsible for how they use generated images.
+3.6(D) Usage limits.
+ The Service is subject to per-session usage limits. Attempts to circumvent limits via automation, spoofing, or other means violate these Terms.
+3.6(E)
+Data collection for unauthenticated users.
+ When using the Image Generation Service, Modular collects IP address, browser user agent, timestamps, prompts submitted, and consent records — even if the User does not hold an Account. This data is used for content moderation, abuse prevention, and legal compliance.
+3.7 - Third-Party Models.
+ Certain features of the Modular Platform, including the Image Generation Service, are powered by Third-Party Models. Modular does not own, control, or warrant the accuracy, safety, or fitness of any Third-Party Model, and your use of the Modular Platform grants no license to any Third-Party Model’s underlying weights, architecture, or technology. Offerings that incorporate or interoperate with the Modular Platform but are operated by a third party, including any “powered by Modular” or partner-operated offerings not expressly identified by Modular as part of the Modular Platform, are governed solely by the terms between you and that third party, and Modular has no responsibility or liability arising from or relating to such offerings.
+3.8 - AI Output Disclaimer.
+ Outputs generated using the Modular Platform, including via Third-Party Models, may be incomplete, inaccurate, or offensive, and do not reflect Modular’s views. You are solely responsible for evaluating the accuracy and appropriateness of any output for your use case, and should exercise independent judgment before relying on, publishing, or otherwise using any output. Outputs should not be relied upon as a substitute for medical, legal, financial, or other professional advice.
+3.9 - Pre-Release Features.
+ From time to time, Modular may make available features, functionality, or services designated as alpha, beta, preview, experimental, or otherwise pre-release (“Pre-Release Features”). Pre-Release Features are provided for evaluation purposes only, on an “as is” and “as available” basis without warranty of any kind, and may be modified or discontinued at any time in Modular’s sole discretion. Modular is not obligated to provide support, maintenance, or indemnification for Pre-Release Features. None of the commitments in section 7 apply to any Pre-Release Features.
+3.10. Updates to These Terms; Re-Acceptance.
+3.10(A) – Right to Update.
+ Modular may update or modify these Terms of Use from time to time. We will provide notice of material changes by posting the updated Terms to
+ www.modular.com/legal/terms
+ or sending notice to the email address associated with your Account.
+3.10(B) – Grace Period.
+ Upon Modular publishing a materially updated version of these Terms, all Users — including Org-Owners — will have a grace period of 30 days ("
+Grace Period
+") during which continued access to the Modular Platform remains available under the prior Terms.
+3.10(C) – Re-Acceptance Requirement.
+ During the Grace Period, all Users must affirmatively accept the updated Terms by clicking the acceptance button presented upon login. For Organizations:
+(i) Individual Users must re-accept the updated Terms to continue accessing the Modular Platform under their personal Account credentials.
+(ii) The Org-Owner must re-accept the updated Terms for Organization-level API tokens to remain active after the conclusion of the Grace Period. If the Org-Owner does not re-accept before the Grace Period expires, Organization-level tokens will be suspended until re-acceptance is completed.
+3.10(D) – Effect of Non-Acceptance.
+ If the Org-Owner does not accept the updated Terms before the end of the Grace Period, access to the Modular Platform (and, for Org-Owners, the Organization's API token access) may be suspended for other users in the Organization. Modular will not be liable for any interruption to your service or that of your Organization resulting from failure to re-accept within the Grace Period.
+3.10(E) – Continued Use.
+ Following the Grace Period, continued use of the Modular Platform constitutes acceptance of the updated Terms for individual Users who have not yet completed the acceptance flow, except that Organization-level tokens require affirmative Org-Owner re-acceptance and will not be reactivated by continued use alone.
+4. User Responsibilities.
+4.1 - General.
+ You are at all times responsible and liable for all uses of the Modular Platform resulting from access from your Account, directly or indirectly, whether such access or use is permitted by or in violation of this Agreement. Where you are an Org-Owner, your responsibilities and liability under this Section extend to all activity conducted through Organization-level credentials and tokens associated with your Organization. The Org-Owner accepting these Terms represents and warrants that they have the authority to bind themselves and their Organization to this Agreement, and by doing so, accepts these Terms on behalf of themselves and all Users within the Organization.
+4.2 - User Generated Content.
+ You shall not upload to the Modular Platform any User Generated Content that you do not have sufficient rights to upload. You hereby represent and warrant that you have sufficient rights to use any Code you upload to or otherwise use or incorporate as part of the Modular Platform. You shall at all times abide by and comply with the Modular Acceptable AI Use Policy (
+https://www.modular.com/legal/aup
+). You hereby grant to Modular a non-exclusive, royalty-free, worldwide license to reproduce, distribute, and otherwise use and display your User Generated Content and perform all acts with respect to your User Generated Content as may be necessary for Modular to provide the Modular Platform, and a non-exclusive, perpetual, irrevocable, royalty-free, worldwide license to reproduce, distribute, modify, and otherwise use and display your User Generated Content incorporated within the Derivative Data, and as otherwise necessary to provide you with Modular Platform functionality. The foregoing includes, without limitation, the right for Modular to display email domains on the Modular Platform associated with your Account to help you find other Users from your organization or with whom you may share other professional associations. Prompts and uploaded reference images submitted to the Image Generation Service are considered User Generated Content and are subject to the same terms, including the license grant to Modular for moderation and service improvement.
+4.3 - Third-Party Products. 
+Modular may from time to time make Third-Party Products available to you or may allow for certain Third-Party Products to be integrated with the Modular Platform to allow for the transmission of Code or other User Generated Content from such Third-Party Products into the Modular Platform (including, for example and without limitation, Github, AWS Code Commit, BitBucket, etc.). For purposes of this Agreement, such Third-Party Products are subject to their own terms and conditions. Modular is not responsible for the operation of any Third-Party Products and makes no representations or warranties of any kind with respect to Third-Party Products or their respective providers. If you do not agree to abide by the applicable terms for any such Third-Party Products, then you should not install or use such Third-Party Products. By authorizing Modular to transmit your User Generated Content from Third-Party Products into the Modular Platform, you represent and warrant to Modular that you have all right, power, and authority to provide such authorization.
+4.4 - User Controls and Responsibility. 
+You have and will retain sole responsibility for: (i) all your own User Generated Content; (ii) your technology infrastructure and network and internet connection(s) from which you access the Modular Platform; (iii) the security and use of your Account and associated credentials; and (iv) all access to and use of the Modular Platform, including all results obtained from, and all conclusions, decisions, and actions based on, such access or use.
+4.5 - Prohibited Data.
+ Unless Modular has expressly agreed otherwise in writing, you will not submit to the Modular Platform: (a) protected health information regulated by the Health Insurance Portability and Accountability Act (“HIPAA”); (b) payment card data subject to the Payment Card Industry Data Security Standard (“PCI-DSS”); or (c) any other sensitive or special category personal data that requires heightened protection, additional consent, or data processing terms beyond those provided in this Agreement under applicable law. Modular will have no responsibility for any harm arising from your submission of data in violation of this section.
+5. Account Fees.
+You may access the Modular Platform for free, or we may charge a fee for using the Modular Platform (the “
+Paid Services
+”).
+5.1 - Paid Platform Access.
+ Certain aspects of features of the Modular Platform may be subject to payments now or in the future (“
+Account Fees
+”).
+5.1(A) Payment Processor.
+ We use a third-party payment processor (the “
+Payment Processor
+”) to bill you through a payment account linked to your Account on the Modular Platform (your “
+Billing Account
+”) for any owed Account Fees. The processing of payments will be subject to the terms, conditions and privacy policies of the Payment Processor in addition to this Agreement. Currently, we use Stripe, Inc. as our Payment Processor. You can access Stripe’s Terms of Service at
+ https://stripe.com/us/checkout/legal
+ and their Privacy Policy at
+ https://stripe.com/us/privacy
+. We are not responsible for any error by, or other acts or omissions of, the Payment Processor. By choosing to use our Paid Services, you agree to pay us, through the Payment Processor, all Account Fees then in effect for any use of such Paid Services in accordance with the applicable payment terms, and you authorize us, through the Payment Processor, to charge your chosen payment provider (your “
+Payment Method
+”). You agree to make payment using that selected Payment Method. We reserve the right to correct any errors or mistakes that the Payment Processor makes even if it has already requested or received payment.
+5.1(B) Payment Method.
+ The terms of your payment will be based on your Payment Method and may be determined by agreements between you and the financial institution, credit card issuer or other provider of your chosen Payment Method. If we, through the Payment Processor, do not receive payment from you, you agree to pay all amounts due on your Billing Account upon demand.
+5.1(C) Recurring Billing. 
+Some of the Paid Services may consist of an initial period, for which there is a one-time charge, followed by recurring period charges as agreed to by you. By choosing a recurring payment plan, you acknowledge that such Paid Services have an initial and recurring payment feature and you accept responsibility for all recurring charges prior to cancellation. WE MAY SUBMIT PERIODIC CHARGES (E.G., MONTHLY) WITHOUT FURTHER AUTHORIZATION FROM YOU, UNTIL YOU PROVIDE PRIOR NOTICE (RECEIPT OF WHICH IS CONFIRMED BY US) THAT YOU HAVE TERMINATED THIS AUTHORIZATION OR WISH TO CHANGE YOUR PAYMENT METHOD. SUCH NOTICE WILL NOT AFFECT CHARGES SUBMITTED BEFORE WE REASONABLY COULD ACT. TO TERMINATE YOUR AUTHORIZATION OR CHANGE YOUR PAYMENT METHOD, GO TO ACCOUNT SETTINGS (https://developer.modular.com).
+5.1(D) Current Information Required. 
+YOU MUST PROVIDE CURRENT, COMPLETE AND ACCURATE INFORMATION FOR YOUR BILLING ACCOUNT. YOU MUST PROMPTLY UPDATE ALL INFORMATION TO KEEP YOUR BILLING ACCOUNT CURRENT, COMPLETE AND ACCURATE (SUCH AS A CHANGE IN BILLING ADDRESS, CREDIT CARD NUMBER, OR CREDIT CARD EXPIRATION DATE), AND YOU MUST PROMPTLY NOTIFY US OR OUR PAYMENT PROCESSOR IF YOUR PAYMENT METHOD IS CANCELED (E.G., FOR LOSS OR THEFT) OR IF YOU BECOME AWARE OF A POTENTIAL BREACH OF SECURITY, SUCH AS THE UNAUTHORIZED DISCLOSURE OR USE OF YOUR USER NAME OR PASSWORD. CHANGES TO SUCH INFORMATION CAN BE MADE AT ACCOUNT SETTINGS (https://developer.modular.com). IF YOU FAIL TO PROVIDE ANY OF THE FOREGOING INFORMATION, YOU AGREE THAT WE MAY CONTINUE CHARGING YOU FOR ANY USE OF PAID SERVICES UNDER YOUR BILLING ACCOUNT UNLESS YOU HAVE TERMINATED YOUR PAID SERVICES AS SET FORTH ABOVE.
+5.1(E) Change in Amount Authorized. 
+If the amount to be charged to your Billing Account varies from the amount you preauthorized (other than due to the imposition or change in the amount of state sales taxes), you have the right to receive, and we shall provide, notice of the amount to be charged and the date of the charge before the scheduled date of the transaction. Any agreement you have with your payment provider will govern your use of your Payment Method. You agree that we may accumulate charges incurred and submit them as one or more aggregate charges during or at the end of each billing cycle.
+5.1(F) Reaffirmation of Authorization.
+ Your non-termination or continued use of a Paid Service reaffirms that we are authorized to charge your Payment Method for that Paid Service. We may submit those charges for payment and you will be responsible for such charges. This does not waive our right to seek payment directly from you. Your charges may be payable in advance, in arrears, per usage, or as otherwise described when you initially selected to use the Paid Service.
+5.1(G) Free Trials and Other Promotions. 
+Any free trial or other promotion that provides access to a Paid Service must be used within the specified time of the trial or promotional window. You must stop using a Paid Service before the end of the trial period in order to avoid being charged for that Paid Service. If you cancel prior to the end of the trial period and are inadvertently charged for a Paid Service, please contact us at mcloudsupport@modular.com.
+6. Confidentiality.
+6.1 - Your Confidentiality Obligations.
+ You agree that any non-public information we give you, such as information about a private beta offering or any information or materials made available on non-public portions of the Modular Platform, is Modular’s confidential information, regardless of whether it is marked or identified as such (collectively, “
+Confidential Information
+”). You agree to only use such Confidential Information for the express purpose of testing and evaluating such beta products and not for any other purpose. You should use the same degree of care as you would with your own confidential information, but no less than reasonable precautions to prevent any unauthorized use, disclosure, publication, or dissemination of our Confidential Information. You promise not to disclose, publish, or disseminate any Confidential Information to any third party, unless we don’t otherwise prohibit or restrict such disclosure (for example, you might be part of a Modular-organized group discussion about a private beta feature).
+6.2 - Exceptions. 
+Confidential Information will not include information that is: (a) or becomes publicly available without breach of this Agreement through no act or inaction on your part (such as when a private beta feature becomes part of our publicly offered Modular Platform); (b) known to you before we disclose it to you; (c) independently developed by you without breach of any confidentiality obligation to us or any third party; or (d) disclosed with permission from Modular. You will not violate the terms of this Agreement if you are required to disclose Confidential Information pursuant to operation of law, provided Modular has been given reasonable advance written notice to object, unless prohibited by law.
+7. Data Security and Processing of Personal Information.
+7.1 - Security Measures.
+ Modular will implement and maintain commercially reasonable administrative, physical, and technical safeguards designed to protect applicable User Generated Content from unauthorized access, use, alteration or disclosure.
+7.2 - Processing of Personal Information.
+ Modular’s rights and obligations with respect to Personal Information that it collects directly from you are set forth in Modular’s Privacy Policy (https://www.modular.com/legal/privacy).
+8. Intellectual Property Ownership; Feedback.
+8.1 - Modular IP. 
+You acknowledge that, as between you and Modular, Modular owns all right, title, and interest, including all intellectual property rights, in and to the Modular IP and, with respect to Third-Party Products, the applicable third-party providers own all right, title, and interest, including all intellectual property rights, in and to the Third-Party Products.
+8.2 - Your User Generated Content.
+ Modular acknowledges that, as between you and Modular, you and your licensors (if any) retain all right, title, and interest, including all intellectual property rights, in and to User Generated Content.
+8.3 - Feedback.
+ If you share any suggestions, recommendations, or changes to the Modular IP, including without limitation, new features or functionality relating thereto, or any comments, questions, suggestions, or the like (“
+Feedback
+”), Modular is free to use such Feedback without any restriction, obligation, or compensation to you.
+8.4 - Termination.
+ Modular may terminate or suspend your Account if you breach this Agreement. You may terminate your Account at any time through your Account settings or by contacting 
+mcloudsupport@modular.com
+. Upon termination of your Account for any reason, your right to access the Modular Platform will immediately cease. Sections of this Agreement that by their nature should survive termination will survive, including Sections 6 (Confidentiality), 7 (Data Security and Personal Information), 8 (Intellectual Property Ownership; Feedback), 9 (Warranty Disclaimer), 10 (Indemnification), 11 (Limitation of Liability), 12.5 (Export Compliance).
+9. Warranty Disclaimer.
+MODULAR AND ITS LICENSORS, SUPPLIERS, PARTNERS, PARENT, SUBSIDIARIES OR AFFILIATED ENTITIES, AND EACH OF THEIR RESPECTIVE OFFICERS, DIRECTORS, MEMBERS, EMPLOYEES, CONSULTANTS, CONTRACT EMPLOYEES, REPRESENTATIVES AND AGENTS, AND EACH OF THEIR RESPECTIVE SUCCESSORS AND ASSIGNS (MODULAR AND ALL SUCH PARTIES TOGETHER, THE “
+MODULAR PARTIES
+”) MAKE NO REPRESENTATIONS OR WARRANTIES CONCERNING THE MODULAR IP, AND THE MODULAR PARTIES WILL NOT BE RESPONSIBLE OR LIABLE FOR THE ACCURACY, AVAILABILITY, OCCURRENCE OF ERRORS, COPYRIGHT COMPLIANCE, LEGALITY, OR DECENCY OF MATERIAL CONTAINED IN OR ACCESSED THROUGH THE PLATFORM OR ANY CLAIMS, ACTIONS, SUITS PROCEDURES, COSTS, EXPENSES, DAMAGES OR LIABILITIES ARISING OUT OF USE OF, OR IN ANY WAY RELATED TO YOUR ACCESS OF THE PLATFORM OR USE OF ANY MODULAR IP. THE MODULAR PARTIES MAKE NO REPRESENTATIONS OR WARRANTIES REGARDING SUGGESTIONS OR RECOMMENDATIONS OFFERED THROUGH OR IN CONNECTION WITH YOUR USE OF THE PLATFORM. THE MODULAR IP IS PROVIDED BY MODULAR (AND ITS LICENSORS AND SUPPLIERS) ON AN “AS-IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR THAT USE OF THE MODULAR IP WILL BE UNINTERRUPTED OR ERROR-FREE. SOME STATES DO NOT ALLOW LIMITATIONS ON HOW LONG AN IMPLIED WARRANTY LASTS, SO THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+10. Indemnification.
+You agree to protect, indemnify and hold the Modular Parties harmless from and against any and all claims, liabilities, damages (actual and consequential), losses and expenses (including attorneys’ fees) arising from or in any way related to any claims relating to (a) your use of the Modular IP (including any actions taken by a third party using your Account), (b) your violation or breach of any of the terms of this Agreement, (c) content you generate using the Image Generation Service and (d) any violation of applicable law (including Export and Sanctions Laws) in connection with your activities under this Agreement. In the event of such a claim, suit, or action (“
+Claim
+”), we will attempt to provide notice of the Claim to the contact information we have for your Account (provided that failure to deliver such notice shall not eliminate or reduce your indemnification obligations hereunder).
+11. Limitation of Liability
+TO THE FULLEST EXTENT ALLOWED BY APPLICABLE LAW, UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY (INCLUDING, WITHOUT LIMITATION, TORT, CONTRACT, STRICT LIABILITY, OR OTHERWISE) SHALL ANY OF THE MODULAR PARTIES BE LIABLE TO YOU OR TO ANY OTHER PERSON FOR (A) ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OF ANY KIND, INCLUDING DAMAGES FOR LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF DATA, LOSS OF GOODWILL, WORK STOPPAGE, ACCURACY OF RESULTS, OR COMPUTER FAILURE OR MALFUNCTION, (B) ANY SUBSTITUTE GOODS, SERVICES OR TECHNOLOGY, (C) ANY AMOUNT, IN THE AGGREGATE, IN EXCESS OF THE GREATER OF (I) ONE HUNDRED ($100) DOLLARS OR (II) THE AMOUNTS PAID AND/OR PAYABLE BY YOU TO MODULAR IN CONNECTION WITH THE ACCOUNT FEES FOR THE PLATFORM IN THE TWELVE (12) MONTH PERIOD PRECEDING THIS APPLICABLE CLAIM OR (D) ANY MATTER BEYOND OUR REASONABLE CONTROL. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL OR CERTAIN OTHER DAMAGES, SO THE ABOVE LIMITATION AND EXCLUSIONS MAY NOT APPLY TO YOU.
+12. General.
+12.1 - Assignment.
+ You may not assign, delegate or transfer this Agreement or your rights or obligations hereunder, or your Account, in any way (by operation of law or otherwise) without Modular’s prior written consent. We may transfer, assign, or delegate this Agreement and our rights and obligations without consent.
+12.2 - Choice of Law.
+ This Agreement is governed by and will be construed under the Federal Arbitration Act, applicable federal law, and the laws of the State of California, without regard to the conflicts of laws provisions thereof.
+12.3 - Arbitration Agreement.
+ Please read the following 
+ARBITRATION AGREEMENT
+ carefully because it requires you to arbitrate certain disputes and claims with Modular and limits the manner in which you can seek relief from Modular. Both you and Modular acknowledge and agree that for the purposes of any dispute arising out of or relating to the subject matter of this Agreement, Modular's officers, directors, employees and independent contractors (“
+Representatives
+”) are third-party beneficiaries of this Agreement, and that upon your acceptance of this Agreement, Representatives will have the right (and will be deemed to have accepted the right) to enforce this Agreement against you as the third-party beneficiary hereof.
+12.3(A) Arbitration Rules; Applicability of Arbitration Agreement.
+ You and Modular shall use best efforts to settle any dispute, claim, question, or disagreement arising out of or relating to the subject matter of this Agreement directly through good-faith negotiations, which shall be a precondition to either party initiating arbitration. If such negotiations do not resolve the dispute, it shall be finally settled by binding arbitration in San Mateo County, California. The arbitration will proceed in the English language, in accordance with the JAMS Streamlined Arbitration Rules and Procedures (the “
+Rules
+”) then in effect, by one commercial arbitrator with substantial experience in resolving intellectual property and commercial contract disputes. The arbitrator shall be selected from the appropriate list of JAMS arbitrators in accordance with such Rules. Judgment upon the award rendered by such arbitrator may be entered in any court of competent jurisdiction.
+12.3(B) Costs of Arbitration.
+ The Rules will govern payment of all arbitration fees. Modular will pay all arbitration fees for claims less than seventy-five thousand ($75,000) dollars. Modular will not seek its attorneys’ fees and costs in arbitration unless the arbitrator determines that your claim is frivolous.
+12.3(C) Waiver of Jury Trial. 
+YOU AND MODULAR WAIVE ANY CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR JURY. You and Modular are instead choosing to have claims and disputes resolved by arbitration. Arbitration procedures are typically more limited, more efficient, and less costly than rules applicable in court and are subject to very limited review by a court. In any litigation between you and Modular over whether to vacate or enforce an arbitration award, YOU AND MODULAR WAIVE ALL RIGHTS TO A JURY TRIAL, and elect instead to have the dispute be resolved by a judge.
+12.3(D) Waiver of Class or Consolidated Actions.
+ ALL CLAIMS AND DISPUTES WITHIN THE SCOPE OF THIS ARBITRATION AGREEMENT MUST BE ARBITRATED OR LITIGATED ON AN INDIVIDUAL BASIS AND NOT ON A CLASS BASIS. CLAIMS OF MORE THAN ONE USER CANNOT BE ARBITRATED OR LITIGATED JOINTLY OR CONSOLIDATED WITH THOSE OF ANY OTHER USER. If however, this waiver of class or consolidated actions is deemed invalid or unenforceable, neither you nor Modular is entitled to arbitration; instead all claims and disputes will be resolved in a court.
+12.3(E) Opt-out.
+ You have the right to opt out of the provisions of this Section by sending written notice of your decision to opt out to the following address: Modular Inc, 199 1st Street, Los Altos, CA 94022, USA, postmarked within thirty (30) days of first accepting this Agreement. You must include (i) your name and residence address, (ii) the email address and/or telephone number associated with your Account, and (iii) a clear statement that you want to opt out of this Agreement’s arbitration agreement.
+12.3(F) Exclusive Venue.
+ If you send the opt-out notice in (e), and/or in any circumstances where the foregoing arbitration agreement permits either you or Modular to litigate any dispute arising out of or relating to the subject matter of this Agreement in court, then the foregoing arbitration agreement will not apply to either party, and both you and Modular agree that any judicial proceeding (other than small claims actions) will be brought in the state or federal courts located in, respectively, San Mateo County, California, or the federal district in which that county falls.
+12.3(G) Severability.
+ If the prohibition against class actions and other claims brought on behalf of third parties contained above is found to be unenforceable, then all of the preceding language in this Arbitration Agreement section will be null and void. This arbitration agreement will survive the termination of your relationship with Modular.
+12.4 - Miscellaneous. 
+The failure of Modular to exercise, in any way, any right herein shall not be deemed a waiver of any further rights hereunder. If any provision of this Agreement is found to be unenforceable or invalid, that provision will be limited or eliminated, to the minimum extent necessary, so that this Agreement shall otherwise remain in full force and effect and enforceable. You and Modular agree that this Agreement is the complete and exclusive statement of the mutual understanding between you and Modular, and that the terms contained herein supersede and cancel all previous written and oral agreements, communications and other understandings relating to the subject matter of this Agreement. You hereby acknowledge and agree that you are not an employee, agent, partner, or joint venturer of Modular, and you do not have any authority of any kind to bind Modular in any respect whatsoever.
+12.5 - Export and Sanctions; Restricted Parties. 
+12.5(A) Export and Sanctions. 
+In connection with this agreement and your access to and use of any Modular Offerings, you (i) will comply with all export control and economic sanctions laws, orders, and regulations (collectively, “Export and Sanctions Laws”), including by obtaining any required U.S. or other country licenses, authorizations, or approvals; and (ii) will not engage in any activity that would reasonably be expected to cause Modular or its Affiliates to violate any Export and Sanctions Laws. You agree that neither you, nor your Affiliates, will directly or indirectly export, re-export, transfer or release (collectively, "Export") any Modular Offerings (whether or not incorporated into another item), or any direct product thereof, to any country or territory, its government, any entity located in or organized under the laws of such country or territory, or any individual located or resident in such country or territory, if, at the time of Export, the U.S. government maintains comprehensive economic sanctions or an embargo with respect to such country or territory ("Embargoed Country"), without prior government authorization. The U.S. government currently maintains comprehensive economic sanctions or an embargo against Cuba, Iran, North Korea, and the Crimea and other regions of Ukraine controlled by the Russian Federation. The U.S. government also has imposed extensive export controls and economic sanctions on, inter alia, Belarus, the Russian Federation, Syria, and Venezuela. The list of impacted countries may be amended over time.
+12.5(B) Restricted Parties
+. You warrant that neither you, nor your Affiliates, are: (i) listed on a prohibited or restricted party list published by the U.S. government, including but not limited to the U.S. Department of Treasury's "List of Specially Designated Nationals and Blocked Persons" and "Consolidated Sanctions List", and the U.S. Department of Commerce's Entity List, Unverified List, Denied Persons List, and Military End-User List, or any similar list maintained by the United Kingdom, the European Union or its Member States, or other applicable local authority; (ii) located, organized or resident in an Embargoed Country; (iii) owned (50% or more in the aggregate) or controlled, directly or indirectly, by one or more persons or entities described in clauses (i) or (ii); or (iv) otherwise the target of U.S. sanctions (collectively, "Restricted Parties"). You shall not Export any Modular Offerings to any Restricted Parties without prior government authorization, to the extent required by regulation.
+12.6 - Force Majeure.
+ Modular will not be liable for any delay or failure to perform resulting from causes outside its reasonable control, including natural disasters, pandemics, labor disputes, internet or utility failures, or governmental actions. Modular will use reasonable efforts to notify you and to minimize the resulting disruption.
+‍
+Latest from our blog:
+New
+Modular 26.6: Open compiler contributions, audio generation, and expanded model support
+Get the latest news, 
+announcements & updates:
+Join our Newsletter
+INFERENCE
+Shared Endpoints
+Dedicated Endpoints
+Custom Models
+DEPLOYMENTS
+Our Cloud
+Your Cloud
+Pricing
+Solutions
+Text to audio
+Image generation
+Code generation
+AI Agents
+Open SOURCE
+MAX
+Mojo🔥 
+Agent Skills
+Connect
+Blog
+Community
+Report a security issue
+Company
+About Us
+Culture
+Careers
+Request a demo
+Copyright © 
+2026
+ Modular Inc, A Qualcomm Company
+Do not sell or share my personal information
+Terms
+, 
+Privacy
+ & 
+Acceptable Use
+Join our newsletter
+Get all our latest news, announcements and updates delivered directly to your inbox. Unsubscribe at anytime.
+Email*
+First Name
+Last Name
+Your data is handled in accordance with Modular's 
+Privacy Policy
+.
+Thanks for signing up to our newsletter! 🚀
+Thank you,
+Modular Sales Team
+Oops! Something went wrong while submitting the form.
+Return to page
+Modular Champions
+X
+/
+X
+Owen Hilyard
+I'm a PhD student at the University of New Hampshire in the Cloud Computing Lab, where I conduct research on hardware acceleration of networking and distributed systems reliability. I'm also a former component maintainer for DPDK, the Data Plane Development Kit, which is where I got my start looking "under the hood" at networking before resigning to work in my PhD. All of this means I like making computers go fast, and Mojo + MAX is a great place to combine my love of hardware, high performance software, and my interest in programming languages. I also act as one of the community moderators for Modular on the Discord server and Discourse forum.
+Connect with 
+Owen Hilyard
+Seth Stadick
+I'm a Bioinformatics Software Engineer passionate about building high-performance systems. For the past six years, I've developed in Rust across environments ranging from Raspberry Pi devices to full-scale HPC clusters in the cloud. I'm excited about Mojo's potential to reshape how we approach performance-critical computing.When I'm not coding, I’m usually spending time with my family — or trying to land new tricks on a skateboard (I just learned to Ollie)!
+Connect with 
+Seth Stadick
+Brian Grenier
+I am C++ developer working for a cardiac image processing company. I've been a Mojo standard library contributor since 2024. I also actively maintain two libraries, EmberJSON, a JSON library written in pure Mojo, and Kelvin, a type safe dimensional analysis library. I often hang out in the Mojo discord and forum!
+Connect with 
+Brian Grenier
+Martin Vuyk
+I'm a Mechatronics Engineer who pivoted into Software Development. I like tackling complex problems and building lasting solutions. I invest my time into things that I think will be impactful.
+Connect with 
+Martin Vuyk
+Sawyer Bergeron
+Compiler, PL, and systems/performance engineering enthusiast with an eyebrow-raising amount of VAX assembly experience. Collector (of hobbies). Enjoys bagels just a bit too much.
+Connect with 
+Sawyer Bergeron
+Valentin Erokhin
+Author of Lightbug, a Mojo HTTP Framework (https://github.com/Lightbug-HQ/lightbug_http)
+Connect with 
+Valentin Erokhin
+Sora
+Connect with 
+Sora
+Maxim Zaks
+I tell computers how to waste electricity, hopefully in an efficient or at least useful way.
+Connect with 
+Maxim Zaks
+Gabriel de Marmiesse
+Former core dev of Keras, author of Python-on-whales, currently working at Kyutai to democratize AI through open science
+Connect with 
+Gabriel de Marmiesse
+Max Brylski
+Explorer of the computational universe
+Connect with 
+Max Brylski
+Tilli Fe
+Connect with 
+Tilli Fe
+Return to page
+Leadership team
+X
+/
+X
+Chris Lattner
+Distinguished Leader
+ who founded and scaled critical infrastructure including 
+LLVM
+, 
+Clang
+, 
+MLIR
+, 
+Cloud TPUs
+ and the 
+Swift
+ programming language. Chris built AI and core systems at multiple world leading technology companies including Apple, Google, SiFive and Tesla.
+Connect with 
+Chris Lattner
+Tim Davis
+Repeat Entrepreneur
+ and Product Leader. Tim helped build, found and scale large parts of Google's AI infrastructure at 
+Google Brain
+ and Core Systems from APIs (
+TensorFlow
+), Compilers (
+XLA
+ & 
+MLIR
+) and runtimes for server (CPU/GPU/TPU) and 
+TF
+Lite
+ (Mobile/Micro/Web), 
+Android ML 
+& 
+NNAPI
+, large model infrastructure & OSS for billions of users and devices. Loves running, building and scaling products to 
+help people
+, and 
+the world
+.
+Connect with 
+Tim Davis
+Mostafa Hagog
+Mostafa is a seasoned engineering leader in high-performance computing. During his tenure at 
+NVIDIA
+, he served as Engineering Director and led teams to develop optimized deep learning libraries like cuDNN and CUTLASS, revolutionizing GPU-accelerated AI. At 
+SiFive
+, as VP of Software, Mostafa assumed a leadership role guiding teams in the development of an MLIR/LLVM-based software stack for SiFive Intelligence & performance cores. His contributions also extend to optimizing 
+Intel
+ GPU hardware/software features, playing a pivotal role in developing the AVX1/2 SIMD ISA for Intel CPUs, and contributing to the GNU C Compiler. Mostafa holds a Master of Science in Electrical Engineering from the 
+Technion
+, with a specialization in compiler optimizations. His unwavering passion for innovation continues to drive advancements in the field of high-performance computing.
+Connect with 
+Mostafa Hagog
+Kalor Lewis
+Kalor is Modular's VP, Finance and leads all our Finance operations. Prior to Modular, Kalor was a VP, Finance at 
+Fivetran
+ where he was the first finance hire in 2018 and built out the companies entire finance function. Before Fivetran, Kalor was part of 
+Palantir Technologies
+, where he scaled their strategic finance function.
+Connect with 
+Kalor Lewis
+Eric Johnson
+Product leader who has built and scaled AI applications and infrastructure. Eric led the TensorFlow API, Compiler, and Runtime teams at 
+Google Brain
+ and Core Systems, including the founding of 
+TFRT
+ and the productionization of 
+JAX
+. He holds an MBA from 
+Wharton
+ and Computer Science MS from Penn and loves soccer, fitness, and the great outdoors.
+Connect with 
+Eric Johnson
+Mike Edwards
+Mike has spent over 25 years working in the fields of IT, corporate operations, and software development - most recently at Apple. Mike volunteers his time serving as a Board member with the 
+LLVM Foundation
+, focusing on finance and operations. Mike truly believes in the power of AI to help address some of the world’s greatest needs.
+Connect with 
+Mike Edwards
+Return to page

@@ -1,0 +1,503 @@
+
+Modular: Editions & Pricing
+That's a wrap on ModCon 2026! Read the highlights ➔
+Back
+Product
+Solutions
+Resources
+Open Source
+Docs
+Blog
+Company
+Request a demo
+Sign up
+Inference Products
+Shared Endpoints
+Access frontier models via an API
+Dedicated Endpoints
+Mission critical reliability
+Custom models
+Your model, peak performance
+Deployment Options
+Our Cloud
+Fully managed, pay by usage
+Your Cloud
+Modular stack in your VPC
+Pricing
+Flexible plans for every team
+Models
+FLUX.2 Klein 4B
+GLM 5.3 Flash
+MiniMax M3
+Kimi K2.7 Code
+GLM 5.3
+View All
+Text to audio
+Turn text into natural speech
+Image generation
+Generate images from text prompts
+Code generation
+Generate production-ready code
+Video generation
+Generate video from text + image
+Agentic
+Deploy AI agents anywhere
+Custom Models
+Kernel-level model control
+Case Studies
+Proven results from real customers
+Models
+FLUX.2 Klein 4B
+GLM 5.3 Flash
+MiniMax M3
+Kimi K2.7 Code
+GLM 5.3
+View All
+Model Library
+Latest supported open models
+LLM Inference Handbook
+How inference works, from basics to production
+MAX LLM Book
+Build a modern LLM from the ground up
+Mojo Quest
+Learn Mojo through guided challenges
+Mojo GPU Puzzles
+Hands-on GPU programming, puzzle by puzzle
+MAX
+GenAI native modeling & serving
+Mojo
+The systems language for the AI era
+Self-Hosted
+MAX+Mojo self-hosted by you
+Community
+Build the future of AI together
+Agentic Skills
+Official AI agent skills from Modular
+Modular Cloud
+Deploy GenAI models, our cloud or yours
+MAX
+GenAI native modeling & serving
+Mojo
+The systems language for the AI era
+About
+Build AI for anyone, anywhere.
+Careers
+👋  We’re currently hiring!
+Culture
+What we believe
+Contact Us
+Request a demo
+Request a demo
+Sign up
+close
+## Editions that work for everyone. Scale as you grow.
+PER TOKEN OR GPU HOUR
+## Modular Cloud
+Frontier model endpoints with forward-deployed Modular engineers optimizing your workloads. Start by testing shared endpoints for free, then move to dedicated endpoints.
+Always-on compute with SOTA inference performance
+Shared & Dedicated Endpoints
+Usage metrics and observability
+Lowest cost endpoints to maximize ROI for the most demanding workloads
+Secure in our environment
+Forward-deployed engineers tuning your deployment
+Terms and Conditions
+Get started now
+For teams that want speed, reliability, and infrastructure they can trust - without managing it yourself.
+PAY PER MINUTE
+## Bring Your Own Cloud
+Built on our production-hardened BYOC infrastructure. Your VPC, your cloud credits, your compliance policies - with Modular engineers and our control plane inside.
+Everything in Dedicated Endpoint, plus:
+Deployment in your cloud or on-premise
+Data never leaves your VPC
+Performance optimization of your specific pipelines and workloads
+Custom APIs
+Secure in your environment
+Forward-deployed engineers tuning your deployment
+Terms and Conditions
+Talk to sales
+For enterprises needing compliance, control, GPU flexibility, and hands-on engineering.
+CUSTOM ENGAGEMENT
+## Enterprise
+If you want full data control and have your own compute on AWS, GCP, Azure, or Oracle, or want a hybrid approach with our cloud and yours. We work with Enterprises on advanced deployment solutions. Let’s talk.
+SOTA inference performance on any GPU vendor
+Run AI models and pipelines on any hardware we support.
+Deploy MAX and Mojo yourself - container under 1GB
+Custom kernels in Mojo for novel architectures
+Community support through Discord and Github
+Modular Community License
+Talk to sales
+For enterprises who need full control, want to run on diverse GPUs, and create a long term parternship.
+## Hosted Model API Endpoints
+Model
+Input ($/1M)
+Output ($/1M)
+Cache Hit ($/1M)
+DeepSeek V4
+1.74
+3.48
+0.145
+DeepSeek V4 Flash - Standard
+0.14
+0.28
+0.028
+Gemma 4 31B
+0.25
+0.65
+0.08
+Gemma 4 26B A4B
+0.15
+0.6
+0.07
+GLM 5
+0.95
+3.15
+0.2
+GLM 5.1
+1.3
+4.3
+0.26
+GLM 5.2
+1.4
+4.4
+0.26
+GLM 5.3
+1.4
+4.4
+0.26
+GPT OSS 120B
+0.1
+0.5
+N/A
+Kimi K2.5
+0.6
+3
+0.12
+Kimi K2.6
+0.85
+3.5
+0.16
+Llama Guard 4 12B
+0.2
+N/A
+N/A
+MiniMax M2.5
+0.3
+1.2
+0.06
+MiniMax M3
+0.3
+1.2
+0.06
+NVIDIA Nemotron 3 Super
+0.3
+0.75
+0.06
+NVIDIA Nemotron 3 Ultra
+0.6
+3.6
+0.2
+Qwen 3 235B A22B FP8
+0.2
+0.6
+N/A
+Qwen 3.5 9B
+0.17
+0.25
+N/A
+Qwen 3.6 Plus
+0.5
+3
+0.1
+Qwen 3.7-Max
+1.25
+3.75
+0.13
+Model
+Input ($/1K @ 1MP)
+Output ($/1K @ 1 MP)
+FLUX.2-dev
+10
+10
+FLUX.2-klein-9B
+6
+6
+FLUX.2-klein-4B
+1
+1
+Want custom pricing, or preferred token rates?
+Talk to Sales
+## Compare deployment options
+Self-Hosted
+Our Cloud
+Your Cloud
+Support
+Active community and fast responses in Discord, Discourse, Github
+Dedicated support, engineering team, standard and custom SLAs/SLOs
+Dedicated support, engineering team, standard and custom SLAs/SLOs
+Models
+Hundreds of models in our model repo, view top performers
+Top performers available for dedicated endpoint, custom model deployment
+Top performers available for dedicated endpoint, custom model deployment
+AI Skills
+Use our open AI skills to easily write models, or optimize code
+Our engineers can help train your team & migrate your workloads
+Our engineers can help train your team & migrate your workloads
+Platform access
+Deploy MAX and Mojo yourself anywhere you want. Build with open source
+Access Modular Platform with a console for deploying, scaling and managing your AI endpoints.
+Access Modular Platform with a console for deploying, scaling and managing your AI endpoints.
+Scalability
+Scale on your own with the MAX container
+Auto-scaling, scale to zero, burst capacity
+Auto-scaling, proven at Fortune 500 scale.
+Deployment location
+Self-deployed, anywhere
+Our cloud
+Your cloud or hybrid
+Compute hardware
+See officially accepted compatible hardware for each MAX version in our docs. Scaling restrictions apply.
+Diverse GPUs providers in our cloud, optimized for speed and/or cost. 
+NVIDIA, AMD, Trainium, TPU, Qualcomm GPUs, Intel, AMD & ARM CPUs, ASICs - deployed in your cloud.
+Custom kernels
+Your engineers write custom kernels for your workloads.
+Modular engineers tune kernels for your workloads
+Modular engineers write custom kernels for your workloads
+Forward Deployed Engineers
+Available with support plan
+Included
+Included; working in your environment
+Security & Compliance
+SOC 2 Type 2 certified
+SOC 2 Type 2 certified
+SOC 2 Type 2 certified
+Billing & Pricing
+Free
+Per token (shared) Per minute (dedicated)
+Per minute deployed. Use your AWS/GCP/Azure credits and commits
+License
+Community License
+Terms of Service
+Enterprise Contract
+## FAQ
+Which models can I run on Modular?
+With Modular, you can run the latest open-source models, fine-tuned variants or your own custom ones. You can also self-host any model and run it on NVIDIA, AMD, Qualcomm, TPU, Trainium, ARM, Intel, or Apple Silicon. For managed deployments, Our Cloud offers shared and dedicated endpoints with forward-deployed engineers optimizing your workloads.
+See all our models
+What are Shared & Dedicated Endpoints?
+Modular runs all the latest open models in a shared endpoint (shared GPUs, billed on a $ / token basis), or a dedicated (dedicated GPUs, billed on $ / per minute basis) on our cloud infrastructure. We can also deploy in your compute environment on a dedicated basis (Your Cloud). Feel free to reach out to us if you have questions.
+Talk to an AI Engineer
+Which GPUs are available on Modular?
+Modular supports AI accelerators across NVIDIA, AMD, Google, AWS, and Qualcomm – including NVIDIA B200, AMD MI355X, Google TPUs, AWS Trainium, and Qualcomm AI100 and AI200. One software stack runs across them all, delivering state-of-the-art performance without locking developers or infrastructure operators to a single hardware vendor.
+Can I get started with Modular Self-Hosted easily?
+Yes. The Self-Hosted Community Edition is completely free and open source. Install via Docker, PIP, UV, PIXI, or Conda - the container is under 700MB and runs on any GPU we support. You can be serving models in minutes.
+Install Community Edition
+Is Modular hosted infrastructure secure?
+Yes. Modular is SOC 2 Type 2 certified and independently audited. Our Cloud and Your Cloud editions both include enterprise-grade security. With Your Cloud (BYOC), data never leaves your VPC.
+Reach out to us
+How does Modular integrate with our existing infrastructure?
+Modular integrates seamlessly into your stack. Our Cloud endpoints are fully compatible with the OpenAI API standard - swap in with a single line change. For custom kernels, Mojo interoperates directly with C++, CUDA, and ROCm. Every paid tier includes forward-deployed engineers to help with migration and optimization.
+Reach out to us
+What level of customer support do you offer?
+Support varies by edition. The free Self-Hosted option is backed by an active Discord and GitHub community. Our Cloud and Your Cloud editions include dedicated support via email, Slack, and video calls - plus forward-deployed engineers who tune your deployments directly.
+Reach out to us
+Do I pay for idle time on Modular's hosted endpoints?
+Pricing depends on your edition. Modular Cloud has different products and tiers available to you. The free and starter tier, with shared endpoints only are pay-as-you-go at a per-token-consumption rate. Dedicated deployments are charged per GPU hour, so you could theoretically pay for idle time. Your Cloud (BYOC) is also billed per minute of reserved GPU capacity for guaranteed low-latency availability. The Self-Hosted option is free forever with no usage fees.
+See Modular Editions
+Do you offer volume discounts on compute?
+Yes. We offer committed-use and volume pricing for Modular Cloud and Your Cloud editions. Every paid tier also includes forward-deployed engineers who actively optimize your workloads — not just infrastructure, but hands-on engineering support.
+Talk to sales
+Can I host Modular in my own cloud or on-premises?
+Yes. You can use Mojo and MAX to self-host on your own infrastructure, within the 
+terms
+ of their respective licenses, across any hardware Modular supports. This gives you the flexibility to deploy in your own cloud or on-premises environment while keeping control of your infrastructure, data, and operations. For production deployments on your own hardware, Modular also offers BYOC, with our control plane and engineering support running directly in your environment.
+Get started now
+Build the future of AI with Modular
+Get started - FREE
+Sign up today
+Signup to our Cloud Platform today to get started easily.
+Sign Up
+Browse open models
+Browse our model catalog, or deploy your own custom model
+Browse models
+Latest from our blog:
+New
+Modular 26.6: Open compiler contributions, audio generation, and expanded model support
+Get the latest news, 
+announcements & updates:
+Join our Newsletter
+INFERENCE
+Shared Endpoints
+Dedicated Endpoints
+Custom Models
+DEPLOYMENTS
+Our Cloud
+Your Cloud
+Pricing
+Solutions
+Text to audio
+Image generation
+Code generation
+AI Agents
+Open SOURCE
+MAX
+Mojo🔥 
+Agent Skills
+Connect
+Blog
+Community
+Report a security issue
+Company
+About Us
+Culture
+Careers
+Request a demo
+Copyright © 
+2026
+ Modular Inc, A Qualcomm Company
+Do not sell or share my personal information
+Terms
+, 
+Privacy
+ & 
+Acceptable Use
+Join our newsletter
+Get all our latest news, announcements and updates delivered directly to your inbox. Unsubscribe at anytime.
+Email*
+First Name
+Last Name
+Your data is handled in accordance with Modular's 
+Privacy Policy
+.
+Thanks for signing up to our newsletter! 🚀
+Thank you,
+Modular Sales Team
+Oops! Something went wrong while submitting the form.
+Return to page
+Modular Champions
+X
+/
+X
+Owen Hilyard
+I'm a PhD student at the University of New Hampshire in the Cloud Computing Lab, where I conduct research on hardware acceleration of networking and distributed systems reliability. I'm also a former component maintainer for DPDK, the Data Plane Development Kit, which is where I got my start looking "under the hood" at networking before resigning to work in my PhD. All of this means I like making computers go fast, and Mojo + MAX is a great place to combine my love of hardware, high performance software, and my interest in programming languages. I also act as one of the community moderators for Modular on the Discord server and Discourse forum.
+Connect with 
+Owen Hilyard
+Seth Stadick
+I'm a Bioinformatics Software Engineer passionate about building high-performance systems. For the past six years, I've developed in Rust across environments ranging from Raspberry Pi devices to full-scale HPC clusters in the cloud. I'm excited about Mojo's potential to reshape how we approach performance-critical computing.When I'm not coding, I’m usually spending time with my family — or trying to land new tricks on a skateboard (I just learned to Ollie)!
+Connect with 
+Seth Stadick
+Brian Grenier
+I am C++ developer working for a cardiac image processing company. I've been a Mojo standard library contributor since 2024. I also actively maintain two libraries, EmberJSON, a JSON library written in pure Mojo, and Kelvin, a type safe dimensional analysis library. I often hang out in the Mojo discord and forum!
+Connect with 
+Brian Grenier
+Martin Vuyk
+I'm a Mechatronics Engineer who pivoted into Software Development. I like tackling complex problems and building lasting solutions. I invest my time into things that I think will be impactful.
+Connect with 
+Martin Vuyk
+Sawyer Bergeron
+Compiler, PL, and systems/performance engineering enthusiast with an eyebrow-raising amount of VAX assembly experience. Collector (of hobbies). Enjoys bagels just a bit too much.
+Connect with 
+Sawyer Bergeron
+Valentin Erokhin
+Author of Lightbug, a Mojo HTTP Framework (https://github.com/Lightbug-HQ/lightbug_http)
+Connect with 
+Valentin Erokhin
+Sora
+Connect with 
+Sora
+Maxim Zaks
+I tell computers how to waste electricity, hopefully in an efficient or at least useful way.
+Connect with 
+Maxim Zaks
+Gabriel de Marmiesse
+Former core dev of Keras, author of Python-on-whales, currently working at Kyutai to democratize AI through open science
+Connect with 
+Gabriel de Marmiesse
+Max Brylski
+Explorer of the computational universe
+Connect with 
+Max Brylski
+Tilli Fe
+Connect with 
+Tilli Fe
+Return to page
+Leadership team
+X
+/
+X
+Chris Lattner
+Distinguished Leader
+ who founded and scaled critical infrastructure including 
+LLVM
+, 
+Clang
+, 
+MLIR
+, 
+Cloud TPUs
+ and the 
+Swift
+ programming language. Chris built AI and core systems at multiple world leading technology companies including Apple, Google, SiFive and Tesla.
+Connect with 
+Chris Lattner
+Tim Davis
+Repeat Entrepreneur
+ and Product Leader. Tim helped build, found and scale large parts of Google's AI infrastructure at 
+Google Brain
+ and Core Systems from APIs (
+TensorFlow
+), Compilers (
+XLA
+ & 
+MLIR
+) and runtimes for server (CPU/GPU/TPU) and 
+TF
+Lite
+ (Mobile/Micro/Web), 
+Android ML 
+& 
+NNAPI
+, large model infrastructure & OSS for billions of users and devices. Loves running, building and scaling products to 
+help people
+, and 
+the world
+.
+Connect with 
+Tim Davis
+Mostafa Hagog
+Mostafa is a seasoned engineering leader in high-performance computing. During his tenure at 
+NVIDIA
+, he served as Engineering Director and led teams to develop optimized deep learning libraries like cuDNN and CUTLASS, revolutionizing GPU-accelerated AI. At 
+SiFive
+, as VP of Software, Mostafa assumed a leadership role guiding teams in the development of an MLIR/LLVM-based software stack for SiFive Intelligence & performance cores. His contributions also extend to optimizing 
+Intel
+ GPU hardware/software features, playing a pivotal role in developing the AVX1/2 SIMD ISA for Intel CPUs, and contributing to the GNU C Compiler. Mostafa holds a Master of Science in Electrical Engineering from the 
+Technion
+, with a specialization in compiler optimizations. His unwavering passion for innovation continues to drive advancements in the field of high-performance computing.
+Connect with 
+Mostafa Hagog
+Kalor Lewis
+Kalor is Modular's VP, Finance and leads all our Finance operations. Prior to Modular, Kalor was a VP, Finance at 
+Fivetran
+ where he was the first finance hire in 2018 and built out the companies entire finance function. Before Fivetran, Kalor was part of 
+Palantir Technologies
+, where he scaled their strategic finance function.
+Connect with 
+Kalor Lewis
+Eric Johnson
+Product leader who has built and scaled AI applications and infrastructure. Eric led the TensorFlow API, Compiler, and Runtime teams at 
+Google Brain
+ and Core Systems, including the founding of 
+TFRT
+ and the productionization of 
+JAX
+. He holds an MBA from 
+Wharton
+ and Computer Science MS from Penn and loves soccer, fitness, and the great outdoors.
+Connect with 
+Eric Johnson
+Mike Edwards
+Mike has spent over 25 years working in the fields of IT, corporate operations, and software development - most recently at Apple. Mike volunteers his time serving as a Board member with the 
+LLVM Foundation
+, focusing on finance and operations. Mike truly believes in the power of AI to help address some of the world’s greatest needs.
+Connect with 
+Mike Edwards
+Return to page

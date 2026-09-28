@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 28 Sep 2026 10:56:17 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: /workers-ai/platform/data-usage/
+Strict-Transport-Security: max-age=15552000; preload
+X-Content-Type-Options: nosniff
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding
+set-cookie: __cf_bm=MlZU5bOXrmV3OCp4sCbL_5kqpwDyQBtMXWyJcPlA9B0-1790592977.0821974-1.0.1.1-Qaje0t5fR3TfNLBUwP75triWczFEkNB2rql6LKiI48SVnMO2.g3Fjd1jOx2Ol8zgiUoqQY853xvYBDlPc0I78nP3392LYuA2gUSO96Y0O5ZZNsz5nZJ2l2AX5Q5aSaya; HttpOnly; SameSite=None; Secure; Path=/; Domain=developers.cloudflare.com; Expires=Mon, 28 Sep 2026 11:26:17 GMT
+Content-Security-Policy: form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflarestream.com *.cloudflarestream.com cloudflareinsights.com *.cloudflareinsights.com cloudflare.com *.cloudflare.com google.com *.google.com demandbase.com *.demandbase.com bizible.com *.bizible.com jsdelivr.net *.jsdelivr.net 'wasm-unsafe-eval' 'unsafe-inline'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=zW0kCIxIqKvUgamAc0W09Be1RUNtdqLPaVDPqOy5cs4-1790592977.0821974-1.0.1.1-XrwIeZWKVCwZm2s_FCxce_cfxug.AeWd.Nq6SjpiIcImdnnssZ5thRouU4iz6uBFvL9uZvqrlz3Z7XccY4Jew9hAkx5gCfGqF8m0FGdqNdbsJ1839n6yKtjF7b.8S5iiCfjnUliPGGkJFwoYSownM7xHQ_JNFwK5vcfYF_ndX1Xuh50iwZ2H8lClAEkGNn4e6TDknQuxRGyE2M1MeLnhfw; report-to cf-iozssoqxjqyqvgmw
+Report-To: {"group":"cf-iozssoqxjqyqvgmw","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=zW0kCIxIqKvUgamAc0W09Be1RUNtdqLPaVDPqOy5cs4-1790592977.0821974-1.0.1.1-XrwIeZWKVCwZm2s_FCxce_cfxug.AeWd.Nq6SjpiIcImdnnssZ5thRouU4iz6uBFvL9uZvqrlz3Z7XccY4Jew9hAkx5gCfGqF8m0FGdqNdbsJ1839n6yKtjF7b.8S5iiCfjnUliPGGkJFwoYSownM7xHQ_JNFwK5vcfYF_ndX1Xuh50iwZ2H8lClAEkGNn4e6TDknQuxRGyE2M1MeLnhfw"}]}
+Reporting-Endpoints: cf-iozssoqxjqyqvgmw="https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=zW0kCIxIqKvUgamAc0W09Be1RUNtdqLPaVDPqOy5cs4-1790592977.0821974-1.0.1.1-XrwIeZWKVCwZm2s_FCxce_cfxug.AeWd.Nq6SjpiIcImdnnssZ5thRouU4iz6uBFvL9uZvqrlz3Z7XccY4Jew9hAkx5gCfGqF8m0FGdqNdbsJ1839n6yKtjF7b.8S5iiCfjnUliPGGkJFwoYSownM7xHQ_JNFwK5vcfYF_ndX1Xuh50iwZ2H8lClAEkGNn4e6TDknQuxRGyE2M1MeLnhfw"
+Server: cloudflare
+CF-RAY: a422387acf80cb04-GIG
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Mon, 28 Sep 2026 10:56:17 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: MISS
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Reporting-Endpoints: cf-eccjuxuzuqluyzal="https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=gcdtVNT.RWqeTxsgAzj6JMSCi_on11ohGss9dY66FQ0-1790592977.1508696-1.0.1.1-WmVceF6X_gchr8aLUsz5lo2kLcBr24kt74j9JPHByJeqAVTS4zuy63rrM5p7xysMio6GhfRGcVM_32UFyLEe9AB_3_aNUuNCFYiIp_AT3rID4N1n5kfupTYb.h_FWO7lfRL6RNDCR_bBBeMAFbpZv_PzBwCHiUVMZJa692vGQGWpAKQssaXgAQY1H9PwTu30QdJZOXKNv__HnhbNYNezPQ"
+Strict-Transport-Security: max-age=15552000; preload
+X-Content-Type-Options: nosniff
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding
+set-cookie: __cf_bm=0qmmOjG9XzJU3dQxoUqjhuFy1doAlhU0urxbUN.13JY-1790592977.1508696-1.0.1.1-fp1qo7_jJDLFrj1sD0O1ClizRWumK3KmHdULjkO89MFwRZlzJa4UZZGhLSNJrtJik2ss0_2GgH2LZQap3qyJGM2H.hGXB_0ZhkD1sWnqcEvQCIY4iI.QwWeTDp6jSimj; HttpOnly; SameSite=None; Secure; Path=/; Domain=developers.cloudflare.com; Expires=Mon, 28 Sep 2026 11:26:17 GMT
+Content-Security-Policy: form-action 'self'; frame-src 'self' company-target.com *.company-target.com cloudflarestream.com *.cloudflarestream.com youtube-nocookie.com *.youtube-nocookie.com videodelivery.net *.videodelivery.net cloudflare.com *.cloudflare.com; frame-ancestors 'self' cloudflare.com *.cloudflare.com; script-src 'self' cloudflarestream.com *.cloudflarestream.com cloudflareinsights.com *.cloudflareinsights.com cloudflare.com *.cloudflare.com google.com *.google.com demandbase.com *.demandbase.com bizible.com *.bizible.com jsdelivr.net *.jsdelivr.net 'wasm-unsafe-eval' 'unsafe-inline'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=gcdtVNT.RWqeTxsgAzj6JMSCi_on11ohGss9dY66FQ0-1790592977.1508696-1.0.1.1-WmVceF6X_gchr8aLUsz5lo2kLcBr24kt74j9JPHByJeqAVTS4zuy63rrM5p7xysMio6GhfRGcVM_32UFyLEe9AB_3_aNUuNCFYiIp_AT3rID4N1n5kfupTYb.h_FWO7lfRL6RNDCR_bBBeMAFbpZv_PzBwCHiUVMZJa692vGQGWpAKQssaXgAQY1H9PwTu30QdJZOXKNv__HnhbNYNezPQ; report-to cf-eccjuxuzuqluyzal
+Report-To: {"group":"cf-eccjuxuzuqluyzal","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=gcdtVNT.RWqeTxsgAzj6JMSCi_on11ohGss9dY66FQ0-1790592977.1508696-1.0.1.1-WmVceF6X_gchr8aLUsz5lo2kLcBr24kt74j9JPHByJeqAVTS4zuy63rrM5p7xysMio6GhfRGcVM_32UFyLEe9AB_3_aNUuNCFYiIp_AT3rID4N1n5kfupTYb.h_FWO7lfRL6RNDCR_bBBeMAFbpZv_PzBwCHiUVMZJa692vGQGWpAKQssaXgAQY1H9PwTu30QdJZOXKNv__HnhbNYNezPQ"}]}
+Server: cloudflare
+CF-RAY: a422387b2faacb04-GIG
+alt-svc: h3=":443"; ma=86400
+

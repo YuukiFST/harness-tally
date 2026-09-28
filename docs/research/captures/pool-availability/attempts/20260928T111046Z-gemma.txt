@@ -1,0 +1,22 @@
+# 20260928T111046Z round 2 gemma p1; Authorization sent, not recorded
+# ---- response headers ----
+HTTP/1.1 429 Too Many Requests
+Date: Mon, 28 Sep 2026 11:10:53 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-Generation-Id,X-Provider-Name,request-id,cf-ray
+X-Generation-Id: gen-1790593853-a08GYQsqO6UvmPewvQRB
+set-cookie: __cf_bm=FTWQXKtsaelh8MFCuorcKBGv3mSvlal9ceJ_KNu9NQ0-1790593853.2177708-1.0.1.1-6hJGH6A9kCq6.eQH9scQXBIou5rokH3AUGm3ZWEARNpKC0G6UjnM7B5lJ1n2A.qPXL.cxI7MYu8FQ1GAiWptt2FKlIq23yMk55ZiDGwdlHXmDCOuWGvjwkF44_1DkMTT; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Mon, 28 Sep 2026 11:40:53 GMT
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: a4224dde9a0ee01b-GIG
+
+# ---- response body (raw bytes follow) ----
+282
+{"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_byok":false,"provider_error_code":"429","limit_source":"upstream_provider_shared_pool","remedy_hint":"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing"}},"user_id":"user_39KViMt0QrMBr4gKi6otIQroqrN"}
+0
+

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ses_f270184a4ffewIlAf56mqquxh2",
+    "parent_id": null,
+    "agent": "build",
+    "title": "unit-01",
+    "tokens_input": 514,
+    "tokens_output": 9,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  },
+  {
+    "id": "ses_f27017114ffe5kcyjPR8t6neKF",
+    "parent_id": "ses_f270184a4ffewIlAf56mqquxh2",
+    "agent": "general",
+    "title": "probe C (@general subagent)",
+    "tokens_input": 207,
+    "tokens_output": 4,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  },
+  {
+    "id": "ses_f27017093ffe3LNdyO6Cf9uyWU",
+    "parent_id": "ses_f270184a4ffewIlAf56mqquxh2",
+    "agent": "explore",
+    "title": "probe D (@explore subagent)",
+    "tokens_input": 307,
+    "tokens_output": 5,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

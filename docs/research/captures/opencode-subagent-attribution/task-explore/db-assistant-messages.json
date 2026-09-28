@@ -1,0 +1,26 @@
+[
+  {
+    "id": "msg_0d8fddf80001TgOna3QzgpjeM3",
+    "session_id": "ses_f2702388dffelUWgHVC6El2opK",
+    "agent": "build",
+    "mode": "build",
+    "summary": null,
+    "tokens": "{\"total\":110,\"input\":107,\"output\":3,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  },
+  {
+    "id": "msg_0d8fde67b001f9TZMKPfyL7W4N",
+    "session_id": "ses_f27021a38ffeK1evTkcCrhGQWa",
+    "agent": "explore",
+    "mode": "explore",
+    "summary": null,
+    "tokens": "{\"total\":211,\"input\":207,\"output\":4,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  },
+  {
+    "id": "msg_0d8fdedc0001xNrO7x9Nf67pqS",
+    "session_id": "ses_f2702388dffelUWgHVC6El2opK",
+    "agent": "build",
+    "mode": "build",
+    "summary": null,
+    "tokens": "{\"total\":312,\"input\":307,\"output\":5,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "info": {
+    "id": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+    "slug": "stellar-lagoon",
+    "projectID": "global",
+    "directory": "C:\\tmp\\hbsub-sandbox\\task-general\\ws",
+    "path": "tmp/hbsub-sandbox/task-general/ws",
+    "parentID": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+    "title": "probe A (@general subagent)",
+    "agent": "general",
+    "model": {
+      "id": "MOCK-2.6B",
+      "providerID": "mockollama",
+      "variant": "default"
+    },
+    "version": "1.17.9",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 307,
+      "output": 5,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "permission": [
+      {
+        "permission": "question",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_enter",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_exit",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "task",
+        "pattern": "*",
+        "action": "deny"
+      }
+    ],
+    "time": {
+      "created": 1790346870224,
+      "updated": 1790346871537
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1790346870257
+        },
+        "agent": "general",
+        "model": {
+          "providerID": "mockollama",
+          "modelID": "MOCK-2.6B"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0d8fd3def0014Dp0Y9iR7Ql29i",
+        "sessionID": "ses_f2702c22fffewqTWQ3wE4AdYTJ"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "SUBTASK-PROBE-A: reply with ok",
+          "id": "prt_0d8fd3df4001xQi0qM7Zd7LVfr",
+          "sessionID": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+          "messageID": "msg_0d8fd3def0014Dp0Y9iR7Ql29i"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0d8fd3def0014Dp0Y9iR7Ql29i",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "C:\\tmp\\hbsub-sandbox\\task-general\\ws",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 312,
+          "input": 307,
+          "output": 5,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "MOCK-2.6B",
+        "providerID": "mockollama",
+        "time": {
+          "created": 1790346870306,
+          "completed": 1790346871448
+        },
+        "finish": "stop",
+        "id": "msg_0d8fd3e22001TOjWAHacmKz8Ts",
+        "sessionID": "ses_f2702c22fffewqTWQ3wE4AdYTJ"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_0d8fd427f001u6dLyz01fwNHSn",
+          "sessionID": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+          "messageID": "msg_0d8fd3e22001TOjWAHacmKz8Ts"
+        },
+        {
+          "type": "text",
+          "text": "ok",
+          "time": {
+            "start": 1790346871427,
+            "end": 1790346871431
+          },
+          "id": "prt_0d8fd4283001ab0BeFeE8MavEw",
+          "sessionID": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+          "messageID": "msg_0d8fd3e22001TOjWAHacmKz8Ts"
+        },
+        {
+          "reason": "stop",
+          "type": "step-finish",
+          "tokens": {
+            "total": 312,
+            "input": 307,
+            "output": 5,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 0
+            }
+          },
+          "cost": 0,
+          "id": "prt_0d8fd428c001pcuix4BUnnr4lK",
+          "sessionID": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+          "messageID": "msg_0d8fd3e22001TOjWAHacmKz8Ts"
+        }
+      ]
+    }
+  ]
+}

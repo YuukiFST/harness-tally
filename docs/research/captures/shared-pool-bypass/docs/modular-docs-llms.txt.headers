@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Sep 2026 10:57:11 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Ray: a42239c83ca2e2a6-GIG
+CF-Cache-Status: REVALIDATED
+Cache-Control: public
+ETag: W/"Fi0HojKOZzRygw4L3Wmeq6GW6Tye_XVrbZZB3R3hK_A"
+x-vercel-id: iad1::iad1::wtl4f-1790173508311-660b1b15c655
+Server: cloudflare
+Strict-Transport-Security: max-age=63072000
+Vary: rsc, accept-encoding
+content-security-policy: worker-src * blob: data:; object-src data:; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self';
+content-security-policy-report-only: default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' blob: https:; connect-src 'self' https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /_mintlify/api/csp-report; report-to mintlify-csp;
+reporting-endpoints: mintlify-csp="/_mintlify/api/csp-report"
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-matched-path: /_sites/[subdomain]/llms.txt
+x-vercel-cache: MISS
+alt-svc: h3=":443"; ma=86400
+

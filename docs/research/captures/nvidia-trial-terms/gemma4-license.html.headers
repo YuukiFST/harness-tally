@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+content-type: text/html; charset=utf-8
+location: /gemma/apache_2
+cache-control: private, max-age=2592000
+pragma: 
+vary: Cookie
+content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-7/9/Iw4vOxudpgki6/i6m7XcbIcR8x' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe https://aistudio.google.com; report-uri https://csp.withgoogle.com/csp/devsite/v2
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+x-xss-protection: 0
+x-content-type-options: nosniff
+expires: 0
+x-cloud-trace-context: ee8f61948c797caa270644467cf03346
+date: Fri, 25 Sep 2026 14:40:46 GMT
+server: Google Frontend
+Content-Length: 217
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 200 OK
+last-modified: Wed, 01 Apr 2026 21:33:57 GMT
+content-type: text/html; charset=utf-8
+vary: Cookie
+content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-zUtWrKJFBZ2OGIUJu3prirL9222cJS' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe https://aistudio.google.com; report-uri https://csp.withgoogle.com/csp/devsite/v2
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+x-xss-protection: 0
+x-content-type-options: nosniff
+cache-control: no-cache, must-revalidate
+expires: 0
+pragma: no-cache
+x-cloud-trace-context: e2db892254c07dbd270644467cf03d65
+date: Fri, 25 Sep 2026 14:40:53 GMT
+server: Google Frontend
+Content-Length: 259137
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Sep 2026 10:55:51 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+set-cookie: _cfuvid=xpQG3hGLFg022afDKpB2mG2ZcvAG.VTo8s7.VvX2fcI-1790592951.4606218-1.0.1.1-LE6CKT61F5bu4e4OohQqR2B4DTYhpwbMsw5G60v0twM; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.modular.com
+CF-Ray: a42237daad37e71a-GIG
+CF-Cache-Status: HIT
+Age: 226723
+Last-Modified: Fri, 25 Sep 2026 21:26:09 GMT
+Link: <https://cdn.prod.website-files.com>; rel=preconnect; crossorigin, <https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a81f/css/modular-rebuild.shared.89bc799f4.css>; rel=preload; as=style; crossorigin; integrity="sha384-ibx5n0948+oGBXazYhDpLxcsoArpqCYMEk0WbpIWE5Pg9Cwg65FRhCm5m9lpRayp", <https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css>; rel=preload; as=style; crossorigin; integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+", <https://challenges.cloudflare.com>; rel=preconnect
+Server: cloudflare
+Vary: accept-encoding
+content-security-policy: frame-ancestors 'self'
+referrer-policy: origin-when-cross-origin
+surrogate-control: max-age=432000
+surrogate-key: www.modular.com 68c9c3107effc2ea46e1a81f pageId:68ccf6c3ff7531a36927ef12 68c9c3107effc2ea46e1aaaf 6926c3d7b377e716da74900a 68c9c3107effc2ea46e1a8b6 69baf90d8d69c84dcc617c25
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-lambda-id: 009623dd-5d74-484b-a14d-bb475d2f8c36
+x-wf-region: us-east-1
+x-xss-protection: 1; mode=block
+alt-svc: h3=":443"; ma=86400
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+content-type: text/markdown; charset=utf-8
+vary: Cookie
+content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-un+bx574vVcSIN3mGFPuI4ZnSGkVbA' 'unsafe-eval'; frame-ancestors 'self' https://developers.google.com/_d/analytics-iframe https://aistudio.google.com; report-uri https://csp.withgoogle.com/csp/devsite/v2
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+x-xss-protection: 0
+x-content-type-options: nosniff
+cache-control: no-cache, must-revalidate
+expires: 0
+pragma: no-cache
+x-cloud-trace-context: c45206bbc6e3e4468f37b7a6c8ffa0f3
+date: Mon, 28 Sep 2026 10:52:24 GMT
+server: Google Frontend
+Content-Length: 9016
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

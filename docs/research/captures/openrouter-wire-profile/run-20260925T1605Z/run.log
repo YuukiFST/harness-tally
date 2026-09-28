@@ -1,0 +1,10 @@
+saved meta/key-0-before-anything.txt
+saved meta/models-user.txt
+saved meta/key-1-after-models-user.txt
+!!! 429 at 01-gemma-p1-pi-stream-usage
+saved /c/Users/Desenvolvimento/Desktop/harness-tally/docs/research/captures/openrouter-wire-profile/01-gemma-p1-pi-stream-usage.txt (completion #1, status 429, rc 0, 429 ttfb=0.437938 total=0.438643)
+REFUSED: a 429 was recorded
+REFUSED: a 429 was recorded
+saved meta/key-2-after-completions.txt
+saved meta/key-3-after-generation-lookups.txt
+done; completions sent: 1

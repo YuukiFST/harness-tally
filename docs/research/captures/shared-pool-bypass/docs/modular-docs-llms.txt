@@ -1,0 +1,30 @@
+# Modular Cloud
+
+> Modular’s uniquely heterogeneous infrastructure allows you to find the best cost-to-performance ratio for your AI use case.
+
+- [Deploy with Modular Cloud](https://docs.modular.com/index.md): A simple and powerful inference solution
+- [Quickstart](https://docs.modular.com/quickstart.md): Get free credits and start running inference
+- [Supported models](https://docs.modular.com/models.md): Modular Cloud supports models on shared and dedicated endpoints
+- [Dedicated deployments](https://docs.modular.com/deployments/index.md): Infrastructure dedicated to your organization
+- [Text generation](https://docs.modular.com/inference/text.md): Generate text from an LLM using text, image, and video inputs
+- [Image generation](https://docs.modular.com/inference/image.md): Generate and transform images with the responses API
+- [Video generation](https://docs.modular.com/inference/video.md): Generate videos from text or images with the responses API
+- [Function calling](https://docs.modular.com/inference/function-calling.md): Use function calling and tool use with the chat completions API
+- [Reasoning](https://docs.modular.com/inference/reasoning.md): Enable chain-of-thought reasoning with the chat completions API
+- [API keys](https://docs.modular.com/administration/api-keys.md): Create and manage API keys to authenticate requests
+- [Manage users](https://docs.modular.com/administration/manage-users.md): Add and remove members from your organization
+- [Roles and permissions](https://docs.modular.com/administration/roles-permissions.md): Review the different user roles and the permissions scoped to them
+- [Billing](https://docs.modular.com/administration/billing.md): Manage billing and learn how to update your plan
+- [Rate limits](https://docs.modular.com/administration/rate-limits.md): Learn when rate limits apply and how to increase your organization's limits
+- [Connect with Cursor](https://docs.modular.com/coding-assistants/cursor.md): Set up Cursor to use Modular Cloud models
+- [Connect with Hermes Agent](https://docs.modular.com/coding-assistants/hermes-agent.md): Set up Hermes Agent to use Modular Cloud models
+- [Connect with OpenCode](https://docs.modular.com/coding-assistants/opencode.md): Set up OpenCode to use Modular Cloud models
+- [Connect with Pi](https://docs.modular.com/coding-assistants/pi.md): Set up the Pi agent harness to use Modular Cloud models
+- [Connect with TRAE](https://docs.modular.com/coding-assistants/trae.md): Set up TRAE to use Modular Cloud models
+- [Create chat completion](https://docs.modular.com/api/inference/create-chat-completion.md): Generate a response from a conversation.
+- [Create response](https://docs.modular.com/api/inference/create-response.md): Generate an image or video.
+- [Error codes](https://docs.modular.com/reference/error-codes.md): A reference of API error codes, with their causes and solutions
+
+## OpenAPI Specs
+
+- [openapi-inference](/reference/openapi-inference.yaml)

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+    "parent_id": null,
+    "agent": "build",
+    "title": "unit-01",
+    "tokens_input": 614,
+    "tokens_output": 10,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  },
+  {
+    "id": "ses_f2700cb4affez6j0054ev9k6Y5",
+    "parent_id": "ses_f2700deaeffe1VSf2qBSlPwvDn",
+    "agent": "general",
+    "title": "probe E (@general subagent)",
+    "tokens_input": 30714,
+    "tokens_output": 15,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

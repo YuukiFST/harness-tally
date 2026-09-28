@@ -1,0 +1,45 @@
+HTTP/1.1 308 Permanent Redirect
+Cache-Control: public, max-age=0, must-revalidate
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://client.axept.io https://api.axept.io https://static.axept.io https://cdn.jsdelivr.net https://vercel.live; style-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://axeptio.imgix.net https://colab.research.google.com; media-src 'self' blob:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://client.axept.io https://static.axept.io https://api.axept.io https://esm.sh; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://vercel.live/; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+Content-Type: text/plain
+Date: Fri, 25 Sep 2026 14:31:15 GMT
+Link: </llms.txt>; rel="describedby"
+Location: /admin/billing-usage/usage-limits
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Referrer-Policy: strict-origin-when-cross-origin
+Refresh: 0;url=/admin/billing-usage/usage-limits
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Vercel-Id: gru1::cvgps-1790346675058-848459741887
+X-Xss-Protection: 1; mode=block
+Transfer-Encoding: chunked
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 95086
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline
+Content-Length: 1157972
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://client.axept.io https://api.axept.io https://static.axept.io https://cdn.jsdelivr.net https://vercel.live; style-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://axeptio.imgix.net https://colab.research.google.com; media-src 'self' blob:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://client.axept.io https://static.axept.io https://api.axept.io https://esm.sh; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://vercel.live/; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+Content-Type: text/html; charset=utf-8
+Date: Fri, 25 Sep 2026 14:31:15 GMT
+Etag: "9b81f956e83bdb8ca49e56916fcf4bf0"
+Link: </llms.txt>; rel="describedby"
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+Referrer-Policy: strict-origin-when-cross-origin
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Matched-Path: /en/admin/billing-usage/usage-limits
+X-Nextjs-Prerender: 1
+X-Nextjs-Rewritten-Path: /en/admin/billing-usage/usage-limits
+X-Nextjs-Stale-Time: 300
+X-Vercel-Cache: HIT
+X-Vercel-Id: gru1::tkz5m-1790346675122-6eb4b33e6d6c
+X-Xss-Protection: 1; mode=block
+

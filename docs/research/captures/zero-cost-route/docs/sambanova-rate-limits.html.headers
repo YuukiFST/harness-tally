@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Server: nginx/1.20.1
+Date: Fri, 25 Sep 2026 14:31:22 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 347490
+Connection: keep-alive
+Age: 73341
+Cache-Control: public, max-age=0, must-revalidate
+Content-Security-Policy: worker-src 'self' blob:; object-src 'none'; base-uri 'self'; upgrade-insecure-requests; frame-ancestors 'self' https://dashboard.mintlify.com https://app.mintlify.com; form-action 'self'; default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:;
+Content-Security-Policy-Report-Only: default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; media-src 'self' data: blob: https:; frame-src 'self' blob: https:; connect-src 'self' data: https: wss:; worker-src 'self' blob:; object-src 'none'; report-uri /docs/_mintlify/api/csp-report; report-to mintlify-csp;
+Etag: "17ktkilnqaa7fyg"
+Link: </docs/llms.txt>; rel="llms-txt", </docs/llms-full.txt>; rel="llms-full-txt", </docs/.well-known/api-catalog>; rel="api-catalog", </docs/.well-known/mcp/server-card.json>; rel="mcp-server-card", </docs/.well-known/agent-card.json>; rel="agent-card", </docs/.well-known/agent-skills/index.json>; rel="agent-skills"
+Reporting-Endpoints: mintlify-csp="/docs/_mintlify/api/csp-report"
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Llms-Txt: /docs/llms.txt
+X-Matched-Path: /_sites/[subdomain]/[[...slug]]
+X-Mintlify-Client-Version: 0.0.3675
+X-Nextjs-Prerender: 1
+X-Nextjs-Stale-Time: 60
+X-Vercel-Cache: HIT
+X-Vercel-Id: sfo1::iad1::476rx-1790346682196-925459eebd29
+X-Vercel-Project-Id: prj_ekSYngkqMLMUb1wdarxNSixTj2nj
+X-Version: dpl_BhqiT2PPCAMMT1v3SehredT48A3T
+

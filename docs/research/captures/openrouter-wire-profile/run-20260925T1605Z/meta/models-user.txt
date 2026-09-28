@@ -1,0 +1,163 @@
+# GET https://openrouter.ai/api/v1/models/user at 2026-09-25T16:05:25Z (Authorization sent, not recorded)
+# ---- response headers ----
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 16:05:24 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: BYPASS
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-store
+Access-Control-Expose-Headers: X-Generation-Id,X-Provider-Name,request-id,cf-ray
+set-cookie: __cf_bm=eLaACMmmt7TC9X2J1z3faPJC_lnwHd5k5rJUkQsatHQ-1790352324.2306638-1.0.1.1-gNiNDc980ZOr_WIe70PXIeYQ_VhA.03UWJtc0IhGMGJ4EHQ7msbTKDThjH1ogfzq._.taJD_rz.J9Ia6RH.CbpgIeNwXQH0Qimft0nfuHSthMTe_sT.9BMqN7iwokQOs; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Fri, 25 Sep 2026 16:35:24 GMT
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: a40b452a6bc36485-GIG
+
+# ---- response body (extract: model count, :free ids, the two probed entries; full list not kept) ----
+{
+ "count": 445,
+ "free_ids": [
+  "inclusionai/ling-3.0-flash-sante:free",
+  "inclusionai/ling-3.0-flash-fin:free",
+  "qwen/qwen3.8-27b:free",
+  "dots-studio/dots-3-note-preview:free",
+  "cohere/north-mini-code:free",
+  "z-ai/glm-5.2:free",
+  "google/gemma-4-26b-a4b-it:free",
+  "google/gemma-4-31b-it:free"
+ ],
+ "entries": [
+  {
+   "id": "qwen/qwen3.8-27b:free",
+   "canonical_slug": "qwen/qwen3.8-27b-20260814",
+   "hugging_face_id": "Qwen/Qwen3.8-27B",
+   "name": "Qwen: Qwen3.8 27B (free)",
+   "created": 1786722910,
+   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+   "context_length": 262144,
+   "architecture": {
+    "modality": "text+image+video->text",
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Qwen",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 235929,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": 1,
+    "top_p": 0.95,
+    "top_k": 20
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/qwen/qwen3.8-27b-20260814/endpoints"
+   },
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "xhigh",
+     "medium",
+     "low"
+    ],
+    "default_effort": "xhigh"
+   }
+  },
+  {
+   "id": "google/gemma-4-31b-it:free",
+   "canonical_slug": "google/gemma-4-31b-it-20260402",
+   "hugging_face_id": "google/gemma-4-31B-it",
+   "name": "Google: Gemma 4 31B (free)",
+   "created": 1775148486,
+   "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
+   "context_length": 262144,
+   "architecture": {
+    "modality": "text+image+video->text",
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemma",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 32768,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "response_format",
+    "seed",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": 1,
+    "top_p": 0.95,
+    "top_k": 64,
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/google/gemma-4-31b-it-20260402/endpoints"
+   },
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": false
+   }
+  }
+ ]
+}

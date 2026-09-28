@@ -1,0 +1,59 @@
+{
+  "scenario": "opencode-trailing-slash",
+  "arm": "opencode",
+  "command": [
+    "opencode.cmd",
+    "run",
+    "--format",
+    "json",
+    "--dir",
+    "C:\\tmp\\hbwire-sandbox\\opencode-trailing-slash\\ws",
+    "--pure",
+    "-m",
+    "mockollama/MOCK-2.6B",
+    "--dangerously-skip-permissions",
+    "Read hello.txt and reply with its first line."
+  ],
+  "env_tags": {
+    "HB_RUN_ID": "run-0001",
+    "HB_UNIT_ID": "unit-01"
+  },
+  "extra_env": {},
+  "pi_settings": null,
+  "exit_code": 0,
+  "wall_s": 7.35,
+  "max_inflight": 2,
+  "provider_config": {
+    "$schema": "https://opencode.ai/config.json",
+    "provider": {
+      "mockollama": {
+        "npm": "@ai-sdk/openai-compatible",
+        "name": "Wire mock",
+        "options": {
+          "baseURL": "http://127.0.0.1:61448/v1/",
+          "apiKey": "layer1",
+          "timeout": 120000,
+          "chunkTimeout": 60000
+        },
+        "models": {
+          "MOCK-2.6B": {
+            "limit": {
+              "context": 32768,
+              "output": 4096
+            }
+          }
+        }
+      }
+    },
+    "model": "mockollama/MOCK-2.6B",
+    "small_model": "mockollama/MOCK-2.6B",
+    "permission": {
+      "*": "allow",
+      "external_directory": "deny",
+      "question": "deny",
+      "webfetch": "deny",
+      "websearch": "deny",
+      "doom_loop": "deny"
+    }
+  }
+}

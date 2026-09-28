@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+x-frame-options: SAMEORIGIN
+content-security-policy-report-only: default-src 'self' *.nvidia.com; frame-ancestors 'self' *.nvidia.com *.hcaptcha.com hcaptcha.com; frame-src 'self' nvwb: *.nvidia.com *.hcaptcha.com hcaptcha.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.hcaptcha.com *.cookielaw.org *.nvidia.com browser-intake-datadoghq.com *.adobedtm.com *.amplitude.com *.segment.io *.segment.com *.googletagmanager.com *.doubleclick.net *.google.com *.licdn.com *.hotjar.com *.bing.com *.contentsquare.net *.6sc.co *.facebook.net; worker-src 'self' blob:; style-src 'self' 'unsafe-inline' *.nvidia.com fonts.googleapis.com; font-src 'self' data: *.nvidia.com fonts.gstatic.com; img-src 'self' data: blob: *.nvidia.com *.cookielaw.org registry.npmmirror.com unpkg.com browser-intake-datadoghq.com *.adobedtm.com *.amplitude.com *.segment.io *.segment.com *.googletagmanager.com *.doubleclick.net *.google.com *.licdn.com *.hotjar.com *.bing.com *.contentsquare.net *.6sc.co *.facebook.net; media-src 'self' data: blob: *.nvidia.com *.amazonaws.com; connect-src 'self' data: blob: wss: *.nvidia.com *.cookielaw.org *.amazonaws.com wttr.in potterapi-fedeperin.vercel.app api.color.pizza huggingface.co browser-intake-datadoghq.com *.adobedtm.com *.amplitude.com *.segment.io *.segment.com *.googletagmanager.com *.doubleclick.net *.google.com *.licdn.com *.hotjar.com *.bing.com *.contentsquare.net *.6sc.co *.facebook.net; report-to /csp-report
+Content-Security-Policy: frame-ancestors 'self' *.nvidia.com *.hcaptcha.com hcaptcha.com
+Link: </nvidia/nemotron-3-super-120b-a12b.md>; rel="alternate"; type="text/markdown", </llms.txt>; rel="describedby"; type="text/plain"
+Link: </>; rel=preconnect; crossorigin=""
+x-nextjs-stale-time: 300
+x-nextjs-postponed: 1
+x-powered-by: Next.js
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+x-envoy-upstream-service-time: 8
+Server: istio-envoy
+x-envoy-decorator-operation: api-catalog-web-ui.default.svc.cluster.local:3001/*
+X-EdgeConnect-MidMile-RTT: 22
+X-EdgeConnect-Origin-MEX-Latency: 186
+X-Akamai-Transformed: 0 - 0 -
+Date: Fri, 25 Sep 2026 14:31:54 GMT
+Transfer-Encoding:  chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+x-accept: */*
+Country_Code: c_code=BR; Domain=nvidia.com; Path=/; Secure
+nv-host: build.nvidia.com
+Akamai-Cache-Status: Miss from child, Miss from parent
+Set-Cookie: ak_bmsc=ECD893C07D960EBF019BB3BEA76E7246~000000000000000000000000000000~YAAQTfvSF9NG39SgAQAAadz62AFpqg6cTIeDuNFyY0USR9yY9b1+sNKQKiygnIvt9gI894dgSPzIdQG3jiKxtjuhfXYX+J1X6dGxLrLQu8+62lgZX0o0JMz28OqnR7MZcPpjabFRK/tdC89AGsMVkp957dwChYUrvYwifSZfv5e3NJNnGNXbenBxDWxZ5vJyjV1WcBnDbSMB9WHs57nE5au5pFF/cLyPPariDr1rDSOzF9nRVEkk479lHZW3vJDlpXTHMKahMYbsDkxJd0uZLxrAv4JTQQQbwZL4ofhDX6S2KwFjoi3WvQCIeVmCUGPHEnOjX05S+MBd2/fiwlKj+4H9MWzYfcnsgq9zlPZuGDYplfNvMCWwrO7FIPL6FkAw; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 16:31:53 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=5A987C03D835DC9C34B77FE8EF55D682~YAAQTfvSF9RG39SgAQAAadz62AEPOG73JvQfdIqj+dIY2woVT1WByGf8AEtqwkKSVamFB7A5PE4Z3dPU9kO5RwBSlfdT30dCz3bp2nNTsAYSXwva+pB/jYIb2+ubxWPMUgEBRWovLYQhbyQVeQEfXAgXWzDdYlNPBmrzw1q8ySMDA0Jjgm/UaLftx0LjYJItyYpLtBITxeLuXyLEG41ZckGMF6HR2MmxkzG4gC5APxF2dHTLgTJo0ZpD1olAJfa2sKt8ruMh3UzgCX2a48zDkwLSP9SO5E/b0UxvaUoHSPFcj6lpwTDE/2AsI2e6qstYARKg+7EWDOqmnC05OIgX5I8W2tJwJ81syjQbtO1VeQ==~1; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 14:31:54 GMT; Max-Age=0; Secure
+

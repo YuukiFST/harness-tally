@@ -1,0 +1,16 @@
+# request 1 at 2026-09-25T11:21:13Z curl_rc=0 meta(http ttfb total)=403 0.794912 0.795495
+# POST https://opencode.ai/zen/v1/chat/completions extra_args: -H Accept-Encoding: identity
+# request body:
+{"model":"mimo-v2.5-free","messages":[{"role":"system","content":"You are a coding agent. Use tools when the user asks you to act on files. Be brief."},{"role":"user","content":"Reply with the single word: ok"}],"tools":[{"type":"function","function":{"name":"read","description":"Read a file from disk and return its contents.","parameters":{"type":"object","properties":{"path":{"type":"string","description":"Path to the file"}},"required":["path"]}}},{"type":"function","function":{"name":"bash","description":"Run a shell command and return stdout.","parameters":{"type":"object","properties":{"command":{"type":"string"}},"required":["command"]}}}],"max_tokens":512,"stream":true,"stream_options":{"include_usage":true}}
+# ---- response headers ----
+HTTP/1.1 403 Forbidden
+Date: Fri, 25 Sep 2026 11:21:19 GMT
+Content-Type: application/json
+Content-Length: 151
+Connection: keep-alive
+Cf-Placement: remote-ORD
+Server: cloudflare
+CF-RAY: a409a5059c6e5c71-MIA
+
+# ---- response body (raw) ----
+{"type":"error","error":{"type":"FreeTierError","message":"Error from provider (Console): OpenCode's free tier can only be used from within OpenCode"}}

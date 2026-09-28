@@ -1,0 +1,82 @@
+{
+  "root_session": "ses_f2702388dffelUWgHVC6El2opK",
+  "requests": [
+    {
+      "seq": 0,
+      "class": "root",
+      "session": "ses_f2702388dffelUWgHVC6El2opK",
+      "parent_header": null,
+      "mock_kind": "parent_task_call",
+      "has_task_tool": true,
+      "n_tools": 9,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    },
+    {
+      "seq": 1,
+      "class": "child",
+      "session": "ses_f27021a38ffeK1evTkcCrhGQWa",
+      "parent_header": "ses_f2702388dffelUWgHVC6El2opK",
+      "mock_kind": "text_step",
+      "has_task_tool": false,
+      "n_tools": 7,
+      "system_head": "You are a file search specialist. You excel at thoroughly na"
+    },
+    {
+      "seq": 2,
+      "class": "root",
+      "session": "ses_f2702388dffelUWgHVC6El2opK",
+      "parent_header": null,
+      "mock_kind": "text_step",
+      "has_task_tool": true,
+      "n_tools": 9,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    }
+  ],
+  "per_session": {
+    "ses_f27021a38ffeK1evTkcCrhGQWa": {
+      "wire": {
+        "requests": 1,
+        "prompt": 207,
+        "completion": 4,
+        "kinds": [
+          "text_step"
+        ]
+      },
+      "native_rollup": {
+        "parent_id": "ses_f2702388dffelUWgHVC6El2opK",
+        "agent": "explore",
+        "input": 207,
+        "output": 4
+      },
+      "rollup_equals_wire": true
+    },
+    "ses_f2702388dffelUWgHVC6El2opK": {
+      "wire": {
+        "requests": 2,
+        "prompt": 414,
+        "completion": 8,
+        "kinds": [
+          "parent_task_call",
+          "text_step"
+        ]
+      },
+      "native_rollup": {
+        "parent_id": null,
+        "agent": "build",
+        "input": 414,
+        "output": 8
+      },
+      "rollup_equals_wire": true
+    }
+  },
+  "stdout_step_finish": {
+    "input": 414,
+    "output": 8,
+    "events": 2
+  },
+  "child_requests": 1,
+  "child_requests_without_parent_header": 0,
+  "root_requests_with_parent_header": 0,
+  "wire_prompt_total": 621,
+  "native_rollup_input_total": 621
+}

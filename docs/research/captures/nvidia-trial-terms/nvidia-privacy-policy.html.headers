@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Server: Apache
+Edge-Cache-Tag: /en-us/about-nvidia/privacy-policy/this/,/en-us/about-nvidia/privacy-policy/,/en-us/about-nvidia/,/en-us/
+Last-Modified: Fri, 25 Sep 2026 10:27:34 GMT
+ETag: "7acdf-65c4c2a20be58"
+Content-Security-Policy: frame-ancestors 'self' *.awsapps.nvidia.com *.nvidia.com https://widget.stackla.com https://app-sj14.marketo.com https://www.youtube.com https://www.quadro-selector.com http://player.youku.com https://player.youku.com https://live.nvidia-china.com https://www.google.com *.nvidia.cn https://events.rainfocus.com https://www.twitch.tv https://store.nvidia.ru https://store.nvidia.in *.geforcenow.com https://salespro.hpe.com https://hpe.seismic.com https://cms.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://cms.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://events.rainfocus.com https://docs.nvidia-docs-uat.lower.k3.m1.brightspot.cloud https://docs.nvidia-docs-qa3.lower.k3.m1.brightspot.cloud https://nvfile;
+ServerID: prod-web03
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Origin: *
+X-Akamai-Transformed: 0 - 0 -
+Date: Fri, 25 Sep 2026 14:40:58 GMT
+Transfer-Encoding:  chunked
+Connection: keep-alive
+Connection: Transfer-Encoding
+x-accept: */*
+Set-Cookie: c_code=BR; Domain=nvidia.com; Path=/; Secure
+nv-defunct-locale-redirection: executed
+AK_EC_TYPE: LOCALE_ERD_POLICY
+Akamai-Cache-Status: Miss from child
+x-cdn-version: v449
+x-cdn: akam
+Set-Cookie: ak_bmsc=E1EC0E57AD3AB6F1427487A10C61D0DA~000000000000000000000000000000~YAAQSPvSF3rmu5qgAQAA2isD2QGDjt0jndDsngq9+FmwRAY5EOvHCaKTCYsq0q+9McML2l1lh41G1+oyfVRcFsBY88ScgOGgzNBrFbCS+vNt4Fz9ZFt34pDkeVmlBe/A1Xqc380L09A70Gq34RIFYySiH/Y3NZ170OwrAjtdSdG8Z83N/N7d12VivapqznKVNovr3sQluZxj3veQ19/dmsRHQdy5y2Xux4xKh9uT2MheJVDwtpK+vLj5b/xF07G6InCd4rH82uwclxamGLI2INWsY2AVwurJJkvsV7wvVgkbZGvIUrR8mjgBoNgBPIG1AN1vwffwQguFY8xEOU0QRlfU1QPPZHxRsH0y4JVk7kgntrDPGT/yctf2uxBENFg/; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 16:40:57 GMT; Max-Age=7199; HttpOnly
+Set-Cookie: bm_mi=84C717BA94CB546C228283880BFB49DE~YAAQSPvSF3vmu5qgAQAA2isD2QGYXnKznhk8Y8kKqnUXeDKk4vLRjfHrHVxSuyeceZU0x7/vtgR/mcHx+dxXvTrnM6uepJRgrpcB9JPhpnd5cYtQ5UXY6LcCKaZ3LjPnLRMwjECuiB9XYagITkVY1s6WwX4ZUYAjQ40UQtxQfxyoAmPn06+aCT5lW5QOHAWpWtK5laMpQLgtWPjWp4HBRHxQ7QwPspZECGMdJin3cOAESyMABglvnV3eum9bkQRhAwc5xNK/NcwvqpSlJvcXAy77GkV7mY2R4KtEU2GVR4ZAPyjW0Ffum57ShTh5HAHPmqjkAP9kHyoTs9FdKRbodtzA4kvvzxngR+cqcBP4WB0=~1; Domain=.nvidia.com; Path=/; Expires=Fri, 25 Sep 2026 14:40:58 GMT; Max-Age=0; Secure
+

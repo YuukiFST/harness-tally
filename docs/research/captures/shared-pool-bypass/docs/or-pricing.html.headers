@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Date: Mon, 28 Sep 2026 10:52:21 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Age: 10632
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://clerk.openrouter.ai https://*.protect.clerk.com https://*.client.protect.clerk.com https://challenges.cloudflare.com https://checkout.stripe.com https://connect-js.stripe.com https://js.stripe.com https://maps.googleapis.com https://www.googletagmanager.com https://*.googletagmanager.com 'wasm-unsafe-eval' https://unpkg.com https://esm.sh https://static.cloudflareinsights.com https://cdn.jsdelivr.net https://*.algolia.net https://*.algolianet.com https://app.buildwithfern.com https://prod.ferndocs.com https://cdn.segment.com https://jobs.ashbyhq.com https://*.posthog.com https://cdn.tldraw.com; connect-src 'self' blob: https://model-assets.openrouter.ai https://clerk.openrouter.ai https://*.protect.clerk.com https://*.client.protect.clerk.com https://*.protect.clerk.com:* https://clerk-telemetry.com https://checkout.stripe.com https://api.stripe.com https://m.stripe.com https://maps.googleapis.com *.google-analytics.com https://www.googletagmanager.com https://www.google.com https://*.analytics.google.com https://analytics.google.com https://*.google-analytics.com https://*.googletagmanager.com https://*.g.doubleclick.net https://fonts.googleapis.com https://raw.githubusercontent.com wss://www.walletlink.org/rpc https://static.cloudflareinsights.com https://esm.sh https://*.browser-intake-datadoghq.com https://browser-intake-us5-datadoghq.com https://rum.browser-intake-us5-datadoghq.com https://api-na2.hsforms.com https://*.algolia.net https://*.algolianet.com https://app.buildwithfern.com https://prod.ferndocs.com https://api.segment.io https://cdn.segment.com https://www.openrouter.ai https://openrouter.ai https://jobs.ashbyhq.com https://api.ashbyhq.com/ https://*.posthog.com https://cdn.tldraw.com https://wrapped.openrouter.ai https://storage.googleapis.com; frame-src 'self' https://model-assets.openrouter.ai https://*.protect.clerk.com https://*.client.protect.clerk.com https://challenges.cloudflare.com https://checkout.stripe.com https://connect-js.stripe.com https://js.stripe.com https://hooks.stripe.com https://m.stripe.network https://us5.datadoghq.com https://share-na2.hsforms.com https://www.youtube.com https://app.buildwithfern.com https://prod.ferndocs.com https://jobs.ashbyhq.com; img-src 'self' data: blob: https://*.github.io https://model-assets.openrouter.ai https://img.clerk.com https://*.stripe.com https://www.googletagmanager.com www.google.com https://*.google-analytics.com https://*.googletagmanager.com https://analytics.google.com https://*.analytics.google.com https://*.g.doubleclick.net https://source.unsplash.com https://t0.gstatic.com https://imagedelivery.net https://raw.githubusercontent.com https://*.algolia.io https://files.buildwithfern.com https://icons.ferndocs.com https://cdn.tldraw.com https://wrapped.openrouter.ai; media-src 'self' data: blob: https://model-assets.openrouter.ai https://vgi-bench-mirror.openrouter.ai; worker-src 'self' blob: data:; style-src 'self' 'unsafe-inline' sha256-0hAheEzaMe6uXIKV4EehS9pu1am1lj/KnnzrOYqckXk= https://fonts.googleapis.com https://unpkg.com https://cdn.jsdelivr.net https://app.buildwithfern.com https://prod.ferndocs.com https://jobs.ashbyhq.com https://*.posthog.com https://cdn.tldraw.com; frame-ancestors 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net https://cdn.tldraw.com; upgrade-insecure-requests
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+Server: cloudflare
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000
+Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch
+vary: accept-encoding
+X-Frame-Options: SAMEORIGIN
+X-Matched-Path: /en-US/pricing
+X-Nextjs-Prerender: 1
+X-Nextjs-Stale-Time: 300
+X-Vercel-Cache: HIT
+X-Vercel-Id: gru1::jvtw7-1790592741270-88d7ad054f21
+cf-cache-status: DYNAMIC
+Set-Cookie: or_statsig_stable_id=a2eb9871-7ee1-4431-b9d1-4ffe6b22a2ae; Path=/; Expires=Tue, 28 Sep 2027 10:52:21 GMT; Max-Age=31536000; Secure; HttpOnly; SameSite=lax
+Set-Cookie: or_nav_arm=control; Path=/; Expires=Tue, 28 Sep 2027 10:52:21 GMT; Max-Age=31536000; Secure; SameSite=lax
+set-cookie: __cf_bm=c3l8Odkc6Q0VPmO794JdUye7o4zNsRM8BzvVxkdqwV4-1790592741.2677796-1.0.1.1-QM8yNfVt1pBQACedd7hmarIg_hB3U72.AnxKAwYf82aj1ngr1RQNtdPzIZkmKCAahgrGFwwAadg9PgZG_L7.iaZhoaUZYaQt68z9s6RKJMG7rJU0CoUo2u6D1PPHMOmg; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Mon, 28 Sep 2026 11:22:21 GMT
+CF-RAY: a42232b8ea90528a-GIG
+

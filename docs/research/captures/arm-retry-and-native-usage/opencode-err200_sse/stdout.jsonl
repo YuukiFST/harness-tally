@@ -1,0 +1,2 @@
+{"type":"step_start","timestamp":1790335926626,"sessionID":"ses_f27a9c9bbffeUvgkg62ap9Fjuk","part":{"id":"prt_0d8564150001SfWezYipsIZHRk","messageID":"msg_0d8563f56001Y5BmDepwY5tLy3","sessionID":"ses_f27a9c9bbffeUvgkg62ap9Fjuk","type":"step-start"}}
+{"type":"error","timestamp":1790335926626,"sessionID":"ses_f27a9c9bbffeUvgkg62ap9Fjuk","error":{"name":"UnknownError","data":{"message":"\"Error from provider (Console): Upstream request failed: [502] Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (32/32)\""}}}

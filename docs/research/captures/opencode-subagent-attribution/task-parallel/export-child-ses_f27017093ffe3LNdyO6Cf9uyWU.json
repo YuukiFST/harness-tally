@@ -1,0 +1,162 @@
+{
+  "info": {
+    "id": "ses_f27017093ffe3LNdyO6Cf9uyWU",
+    "slug": "glowing-cactus",
+    "projectID": "global",
+    "directory": "C:\\tmp\\hbsub-sandbox\\task-parallel\\ws",
+    "path": "tmp/hbsub-sandbox/task-parallel/ws",
+    "parentID": "ses_f270184a4ffewIlAf56mqquxh2",
+    "title": "probe D (@explore subagent)",
+    "agent": "explore",
+    "model": {
+      "id": "MOCK-2.6B",
+      "providerID": "mockollama",
+      "variant": "default"
+    },
+    "version": "1.17.9",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0,
+    "tokens": {
+      "input": 307,
+      "output": 5,
+      "reasoning": 0,
+      "cache": {
+        "read": 0,
+        "write": 0
+      }
+    },
+    "permission": [
+      {
+        "permission": "question",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_enter",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_exit",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "todowrite",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "task",
+        "pattern": "*",
+        "action": "deny"
+      }
+    ],
+    "time": {
+      "created": 1790346956652,
+      "updated": 1790346958218
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1790346956663
+        },
+        "agent": "explore",
+        "model": {
+          "providerID": "mockollama",
+          "modelID": "MOCK-2.6B"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_0d8fe8f75001O6PhB8lI4Gwrkt",
+        "sessionID": "ses_f27017093ffe3LNdyO6Cf9uyWU"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "SUBTASK-PROBE-D: reply with ok",
+          "id": "prt_0d8fe8f7d001TrGBwCd7M0h4bv",
+          "sessionID": "ses_f27017093ffe3LNdyO6Cf9uyWU",
+          "messageID": "msg_0d8fe8f75001O6PhB8lI4Gwrkt"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_0d8fe8f75001O6PhB8lI4Gwrkt",
+        "role": "assistant",
+        "mode": "explore",
+        "agent": "explore",
+        "path": {
+          "cwd": "C:\\tmp\\hbsub-sandbox\\task-parallel\\ws",
+          "root": "/"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 312,
+          "input": 307,
+          "output": 5,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "MOCK-2.6B",
+        "providerID": "mockollama",
+        "time": {
+          "created": 1790346956753,
+          "completed": 1790346958059
+        },
+        "finish": "stop",
+        "id": "msg_0d8fe8fd1001TftWmcEn5sqCRL",
+        "sessionID": "ses_f27017093ffe3LNdyO6Cf9uyWU"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_0d8fe94d1001969TxHmufKCDnu",
+          "sessionID": "ses_f27017093ffe3LNdyO6Cf9uyWU",
+          "messageID": "msg_0d8fe8fd1001TftWmcEn5sqCRL"
+        },
+        {
+          "type": "text",
+          "text": "ok",
+          "time": {
+            "start": 1790346958042,
+            "end": 1790346958047
+          },
+          "id": "prt_0d8fe94da001SHQ9N6Ma1crZkp",
+          "sessionID": "ses_f27017093ffe3LNdyO6Cf9uyWU",
+          "messageID": "msg_0d8fe8fd1001TftWmcEn5sqCRL"
+        },
+        {
+          "reason": "stop",
+          "type": "step-finish",
+          "tokens": {
+            "total": 312,
+            "input": 307,
+            "output": 5,
+            "reasoning": 0,
+            "cache": {
+              "write": 0,
+              "read": 0
+            }
+          },
+          "cost": 0,
+          "id": "prt_0d8fe94e3001InRYg9OXV6If9C",
+          "sessionID": "ses_f27017093ffe3LNdyO6Cf9uyWU",
+          "messageID": "msg_0d8fe8fd1001TftWmcEn5sqCRL"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 677
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none';prefetch-src 'self';connect-src 'self' https://collector.githubapp.com;font-src 'self' data:;img-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com data: placehold.it;object-src 'self';script-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com 'self' data: 'sha256-U3LWw3Ab3GkeLl43emMGkOL69tCBBkGDB4UldMshHq0=';script-src-attr 'self';frame-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com https://support.github.com;frame-ancestors 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com;style-src 'self' github.com *.github.com *.githubusercontent.com *.githubassets.com 'self' 'unsafe-inline' data:;child-src 'self';manifest-src 'self';upgrade-insecure-requests;base-uri 'self';form-action 'self'
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+X-Frame-Options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+X-XSS-Protection: 0
+Cache-Control: public, max-age=60
+Content-Type: text/markdown; charset=utf-8
+x-github-backend: Kubernetes
+X-GitHub-Request-Id: F8A8:328F36:240136:2A390E:6AB681EC
+x-github-edge-region: iad
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Age: 911
+Date: Fri, 25 Sep 2026 14:30:23 GMT
+X-Served-By: cache-iad-kcgs7200121-IAD, cache-gig2250086-GIG
+X-Cache: HIT, MISS
+X-Cache-Hits: 1, 0
+X-Timer: S1790346623.679735,VS0,VE339
+Strict-Transport-Security: max-age=31557600
+

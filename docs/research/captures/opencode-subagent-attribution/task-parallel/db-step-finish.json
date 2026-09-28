@@ -1,0 +1,22 @@
+[
+  {
+    "session_id": "ses_f27017114ffe5kcyjPR8t6neKF",
+    "message_id": "msg_0d8fe8fab001AMVaiTBlRARzNV",
+    "tokens": "{\"total\":211,\"input\":207,\"output\":4,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  },
+  {
+    "session_id": "ses_f27017093ffe3LNdyO6Cf9uyWU",
+    "message_id": "msg_0d8fe8fd1001TftWmcEn5sqCRL",
+    "tokens": "{\"total\":312,\"input\":307,\"output\":5,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  },
+  {
+    "session_id": "ses_f270184a4ffewIlAf56mqquxh2",
+    "message_id": "msg_0d8fe8a87001W76QAyNsQ1TUv9",
+    "tokens": "{\"total\":110,\"input\":107,\"output\":3,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  },
+  {
+    "session_id": "ses_f270184a4ffewIlAf56mqquxh2",
+    "message_id": "msg_0d8fe957a001woY5Ui7o4yW1RZ",
+    "tokens": "{\"total\":413,\"input\":407,\"output\":6,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":0}}"
+  }
+]

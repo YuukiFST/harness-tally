@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: EXPIRED
+Cf-Ray: a40ab8894952d985-GRU
+Content-Disposition: inline
+Content-Security-Policy: default-src 'none'
+Content-Type: text/markdown; charset=utf-8
+Date: Fri, 25 Sep 2026 14:29:24 GMT
+Last-Modified: Fri, 25 Sep 2026 14:29:24 GMT
+Link: </llms.txt>; rel="llms-txt", </llms-full.txt>; rel="llms-full-txt", </.well-known/api-catalog>; rel="api-catalog", </.well-known/mcp/server-card.json>; rel="mcp-server-card", </.well-known/agent-card.json>; rel="agent-card", </.well-known/agent-skills/index.json>; rel="agent-skills"
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+Vary: rsc, accept-encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Llms-Txt: /llms.txt
+X-Matched-Path: /_mintlify/_markdown/_sites/[subdomain]/[[...slug]]
+X-Robots-Tag: noindex
+X-Vercel-Cache: HIT
+X-Vercel-Id: gru1:gru1:iad1::iad1::v84f4-1790346564006-16bbb767dcd7
+Transfer-Encoding: chunked
+

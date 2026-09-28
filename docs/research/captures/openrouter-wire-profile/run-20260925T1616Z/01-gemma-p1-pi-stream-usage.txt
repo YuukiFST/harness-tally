@@ -1,0 +1,26 @@
+# completion 1 sent 2026-09-25T16:17:11Z curl_rc=0 meta=429 ttfb=0.879822 total=0.880696
+# POST https://openrouter.ai/api/v1/chat/completions
+# request headers: Authorization (not recorded), Content-Type: application/json, Accept-Encoding: identity, curl default User-Agent
+# request body (requests/gemma-p1-pi-stream-usage.json):
+{"model":"google/gemma-4-31b-it:free","messages":[{"role":"system","content":"You are a coding agent. Use tools when the user asks you to act on files. Be brief."},{"role":"user","content":"Reply with the single word: ok"}],"tools":[{"type":"function","function":{"name":"read","description":"Read a file from disk and return its contents.","parameters":{"type":"object","properties":{"path":{"type":"string","description":"Path to the file"}},"required":["path"]}}},{"type":"function","function":{"name":"bash","description":"Run a shell command and return stdout.","parameters":{"type":"object","properties":{"command":{"type":"string"}},"required":["command"]}}}],"stream":true,"stream_options":{"include_usage":true},"max_completion_tokens":64,"store":false}
+# ---- response headers ----
+HTTP/1.1 429 Too Many Requests
+Date: Fri, 25 Sep 2026 16:17:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-Generation-Id,X-Provider-Name,request-id,cf-ray
+X-Generation-Id: gen-1790353031-Ygp9In1B16dnHc3TBEeG
+set-cookie: __cf_bm=vVHpzzmD1jPXnYbQv6Vi06Q_G8MrX_PKRpjmdTyXctw-1790353031.425579-1.0.1.1-V5uk9F28STyNXw7UzXV1UWJevoNk2JTcRm9dTi.p2AKXboIoMAjIkPYQiwVHeJBRauxWP4Jo3yvm22w0yoHuPN0BUlcuAjRWNR7L74ieiVhObJ8wcZ8NFbEbtpYIVZCi; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Fri, 25 Sep 2026 16:47:12 GMT
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: a40b566e6dece0eb-GIG
+
+# ---- response body (raw bytes follow) ----
+282
+{"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google AI Studio","is_byok":false,"provider_error_code":"429","limit_source":"upstream_provider_shared_pool","remedy_hint":"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing"}},"user_id":"user_39KViMt0QrMBr4gKi6otIQroqrN"}
+0
+

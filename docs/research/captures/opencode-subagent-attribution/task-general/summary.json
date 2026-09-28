@@ -1,0 +1,93 @@
+{
+  "root_session": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+  "requests": [
+    {
+      "seq": 0,
+      "class": "root",
+      "session": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+      "parent_header": null,
+      "mock_kind": "toolless",
+      "has_task_tool": false,
+      "n_tools": 0,
+      "system_head": "You are a title generator. You output ONLY a thread title. N"
+    },
+    {
+      "seq": 1,
+      "class": "root",
+      "session": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+      "parent_header": null,
+      "mock_kind": "parent_task_call",
+      "has_task_tool": true,
+      "n_tools": 9,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    },
+    {
+      "seq": 2,
+      "class": "child",
+      "session": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+      "parent_header": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+      "mock_kind": "text_step",
+      "has_task_tool": false,
+      "n_tools": 8,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    },
+    {
+      "seq": 3,
+      "class": "root",
+      "session": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+      "parent_header": null,
+      "mock_kind": "text_step",
+      "has_task_tool": true,
+      "n_tools": 9,
+      "system_head": "You are opencode, an interactive CLI tool that helps users w"
+    }
+  ],
+  "per_session": {
+    "ses_f2702c22fffewqTWQ3wE4AdYTJ": {
+      "wire": {
+        "requests": 1,
+        "prompt": 307,
+        "completion": 5,
+        "kinds": [
+          "text_step"
+        ]
+      },
+      "native_rollup": {
+        "parent_id": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+        "agent": "general",
+        "input": 307,
+        "output": 5
+      },
+      "rollup_equals_wire": true
+    },
+    "ses_f2702d9a0ffe3k3KKtl7JfPtOy": {
+      "wire": {
+        "requests": 3,
+        "prompt": 721,
+        "completion": 13,
+        "kinds": [
+          "toolless",
+          "parent_task_call",
+          "text_step"
+        ]
+      },
+      "native_rollup": {
+        "parent_id": null,
+        "agent": "build",
+        "input": 614,
+        "output": 10
+      },
+      "rollup_equals_wire": false
+    }
+  },
+  "stdout_step_finish": {
+    "input": 614,
+    "output": 10,
+    "events": 2
+  },
+  "child_requests": 1,
+  "child_requests_without_parent_header": 0,
+  "root_requests_with_parent_header": 0,
+  "wire_prompt_total": 1028,
+  "native_rollup_input_total": 921
+}

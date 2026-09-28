@@ -1,0 +1,101 @@
+{
+ "id": "opencode",
+ "env": [
+  "OPENCODE_API_KEY"
+ ],
+ "npm": "@ai-sdk/openai-compatible",
+ "api": "https://opencode.ai/zen/v1",
+ "name": "OpenCode Zen",
+ "doc": "https://opencode.ai/docs/zen",
+ "models": {
+  "mimo-v2.5-free": {
+   "id": "mimo-v2.5-free",
+   "name": "MiMo V2.5 Free",
+   "description": "MiMo omni model for text, image, video, audio, and agents",
+   "family": "mimo-v2.5-free",
+   "attachment": true,
+   "reasoning": true,
+   "reasoning_options": [],
+   "tool_call": true,
+   "interleaved": {
+    "field": "reasoning_content"
+   },
+   "temperature": true,
+   "knowledge": "2024-12",
+   "release_date": "2026-04-24",
+   "last_updated": "2026-04-24",
+   "modalities": {
+    "input": [
+     "text",
+     "image",
+     "audio",
+     "video"
+    ],
+    "output": [
+     "text"
+    ]
+   },
+   "open_weights": true,
+   "limit": {
+    "context": 200000,
+    "output": 32000
+   },
+   "status": "deprecated",
+   "cost": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+   }
+  },
+  "hy3-free": {
+   "id": "hy3-free",
+   "name": "Hy3 Free",
+   "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
+   "family": "hy3-free",
+   "attachment": false,
+   "reasoning": true,
+   "reasoning_options": [
+    {
+     "type": "toggle"
+    },
+    {
+     "type": "effort",
+     "values": [
+      "low",
+      "medium",
+      "high"
+     ]
+    }
+   ],
+   "tool_call": true,
+   "interleaved": {
+    "field": "reasoning_content"
+   },
+   "structured_output": true,
+   "temperature": true,
+   "release_date": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "modalities": {
+    "input": [
+     "text"
+    ],
+    "output": [
+     "text"
+    ]
+   },
+   "open_weights": true,
+   "limit": {
+    "context": 190000,
+    "input": 192000,
+    "output": 64000
+   },
+   "status": "deprecated",
+   "cost": {
+    "input": 0,
+    "output": 0,
+    "cache_read": 0
+   }
+  }
+ },
+ "_note": "Extract of https://models.dev/api.json key opencode, retrieved 2026-09-25T11:20:08Z; full file (4.9 MB) not kept."
+}

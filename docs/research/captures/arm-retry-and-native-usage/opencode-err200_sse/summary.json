@@ -1,0 +1,27 @@
+{
+  "arm": "opencode",
+  "scenario": "err200_sse",
+  "exit_code": 1,
+  "timed_out_after_s": null,
+  "mock": {
+    "step_requests": 1,
+    "aux_requests": 1,
+    "distinct_step_hashes": 1,
+    "step_gaps_ms": [],
+    "first_to_last_step_ms": 0,
+    "stainless_retry_count": []
+  },
+  "native": {
+    "step_finish": [],
+    "errors": [
+      {
+        "name": "UnknownError",
+        "message": "\"Error from provider (Console): Upstream request failed: [502] Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (32/32)\""
+      }
+    ],
+    "event_types": [
+      "error",
+      "step_start"
+    ]
+  }
+}

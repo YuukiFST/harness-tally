@@ -1,0 +1,22 @@
+# 20260928T105022Z round 1 qwen p1; Authorization sent, not recorded
+# ---- response headers ----
+HTTP/1.1 429 Too Many Requests
+Date: Mon, 28 Sep 2026 10:50:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-Generation-Id,X-Provider-Name,request-id,cf-ray
+X-Generation-Id: gen-1790592629-qzo264I96rNAABmI6dSA
+set-cookie: __cf_bm=zodTQOijr1ZV7yGJqGtf9VFQdfRQ.u_zHr_cbbp2tYw-1790592629.2871218-1.0.1.1-JUDs5klMhxO1Ii0C26uQOFiTyV21DnZhXnPTPwsKgcW6j6.mDF_BModEK86pelQ1kmgtobcOszIwOGOMmMmgNJFSbFJ1S_twplUNiOUkE8jzJdgNcob7nZIflZtMD_sU; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Mon, 28 Sep 2026 11:20:29 GMT
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: a4222ffd0b45125c-GIG
+
+# ---- response body (raw bytes follow) ----
+275
+{"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"qwen/qwen3.8-27b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"ModelRun","is_byok":false,"provider_error_code":"429","limit_source":"upstream_provider_shared_pool","remedy_hint":"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing"}},"user_id":"user_39KViMt0QrMBr4gKi6otIQroqrN"}
+0
+

@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 14:30:36 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: s-maxage=1800, stale-if-error=900
+content-language: en
+link: <https://docs.api.nvidia.com/nim/.well-known/api-catalog>; rel="api-catalog", <https://docs.api.nvidia.com/nim>; rel="service-doc", <https://docs.api.nvidia.com/nim/.well-known/agent-skills/index.json>; rel="agent-skills", </nim/docs/product.md>; rel="alternate"; type="text/markdown", <https://cdn.readme.io>; rel=preconnect, <https://cdn.readme.io>; rel=dns-prefetch, <https://cdn.readme.io/public/hub/web/main.88597b30da9682c46ad0.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Containers-EndUserContainer.c4a43573384e5d05cbaa.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/ui-styles.6cab824204cf121e5d1c.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Header.c5ef215a568f1fcad11c.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Doc.9b7a5a3be949c9c669d7.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/2985.fc1b3c92408dc05972b5.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/RMDXISH.159422ed8463cae8cb3f.css>; rel=preload; as=style, <https://cdn.readme.io/public/hub/web/Footer.769aa3e9fc194cc963d9.css>; rel=preload; as=style
+rndr-id: c5f76f34-7691-47ad
+Server: cloudflare
+server-timing: mdx-render;dur=282.3;desc="renderMarkdown (no cache)"
+strict-transport-security: max-age=31536000
+vary: Accept, Accept-Encoding
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: Deny
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+x-ratelimit-reset: 1790345477
+x-render-origin-server: Render
+x-xss-protection: 1; mode=block
+set-cookie: __cf_bm=AQlpYREPDq1BBSvYDhObfcn7A_pzxf5xAWvRJTQg4_8-1790346636.7704234-1.0.1.1-hAL2oKSanpQ3zfuG4JtZMFeAcOe.S8bYeArZjQWjR45NudajVA8BmZks4LzFwq5Yr_a.bwmyeF3MJhkhRwVQvLGZUGddQiHTHYLnHmdvqyW_7VDg0Ca_YhNCnnZnPst5; HttpOnly; SameSite=None; Secure; Path=/; Domain=docs.api.nvidia.com; Expires=Fri, 25 Sep 2026 15:00:36 GMT
+cf-cache-status: HIT
+CF-RAY: a40aba4fcff31944-GIG
+alt-svc: h3=":443"; ma=86400
+

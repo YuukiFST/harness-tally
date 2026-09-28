@@ -1,0 +1,54 @@
+# GET https://openrouter.ai/api/v1/key at 2026-09-28T10:47:50Z (Authorization sent, not recorded)
+# ---- response headers ----
+HTTP/1.1 200 OK
+Date: Mon, 28 Sep 2026 10:47:57 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Cache-Control: private, no-store
+Access-Control-Expose-Headers: X-Generation-Id,X-Provider-Name,request-id,cf-ray
+set-cookie: __cf_bm=LDH.hFR52AmY9UCM7wVvgxc1703isEAFL45CITY9iTI-1790592476.9134984-1.0.1.1-x35KPp4NsFC1tRtYcqvqTWN5cGy_gMWzM1Zx9FI6aTF5rEdxXu8rDETmnROzOnHQtHavaWY6GP9oJ2.pQvk9oeSSeLV12qkpLXlsg1WKYUqL5U7gjPmFiOaHUpFc7FWZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Mon, 28 Sep 2026 11:17:57 GMT
+Permissions-Policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: a4222c44bd5b705d-GIG
+
+# ---- response body ----
+{
+ "data": {
+  "is_management_key": false,
+  "is_provisioning_key": false,
+  "limit": 0,
+  "limit_reset": null,
+  "limit_remaining": 0,
+  "include_byok_in_limit": false,
+  "usage": 0,
+  "usage_daily": 0,
+  "usage_weekly": 0,
+  "usage_monthly": 0,
+  "byok_usage": 0,
+  "byok_usage_daily": 0,
+  "byok_usage_weekly": 0,
+  "byok_usage_monthly": 0,
+  "is_free_tier": true,
+  "expires_at": null,
+  "creator_user_id": "user_39KViMt0QrMBr4gKi6otIQroqrN",
+  "organization_id": null,
+  "workspace_id": "c97ad48f-3440-54a0-a3df-b851c6903372",
+  "allowed_data_regions": [
+   "global"
+  ],
+  "free_model_daily_requests": {
+   "used": 0,
+   "limit": 50,
+   "remaining": 50
+  },
+  "rate_limit": {
+   "requests": -1,
+   "interval": "10s",
+   "note": "This field is deprecated and safe to ignore."
+  }
+ }
+}

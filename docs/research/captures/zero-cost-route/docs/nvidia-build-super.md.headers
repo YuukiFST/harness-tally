@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Content-Type: text/markdown; charset=utf-8
+x-frame-options: SAMEORIGIN
+content-security-policy-report-only: default-src 'self' *.nvidia.com; frame-ancestors 'self' *.nvidia.com *.hcaptcha.com hcaptcha.com; frame-src 'self' nvwb: *.nvidia.com *.hcaptcha.com hcaptcha.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.hcaptcha.com *.cookielaw.org *.nvidia.com browser-intake-datadoghq.com *.adobedtm.com *.amplitude.com *.segment.io *.segment.com *.googletagmanager.com *.doubleclick.net *.google.com *.licdn.com *.hotjar.com *.bing.com *.contentsquare.net *.6sc.co *.facebook.net; worker-src 'self' blob:; style-src 'self' 'unsafe-inline' *.nvidia.com fonts.googleapis.com; font-src 'self' data: *.nvidia.com fonts.gstatic.com; img-src 'self' data: blob: *.nvidia.com *.cookielaw.org registry.npmmirror.com unpkg.com browser-intake-datadoghq.com *.adobedtm.com *.amplitude.com *.segment.io *.segment.com *.googletagmanager.com *.doubleclick.net *.google.com *.licdn.com *.hotjar.com *.bing.com *.contentsquare.net *.6sc.co *.facebook.net; media-src 'self' data: blob: *.nvidia.com *.amazonaws.com; connect-src 'self' data: blob: wss: *.nvidia.com *.cookielaw.org *.amazonaws.com wttr.in potterapi-fedeperin.vercel.app api.color.pizza huggingface.co browser-intake-datadoghq.com *.adobedtm.com *.amplitude.com *.segment.io *.segment.com *.googletagmanager.com *.doubleclick.net *.google.com *.licdn.com *.hotjar.com *.bing.com *.contentsquare.net *.6sc.co *.facebook.net; report-to /csp-report
+Content-Security-Policy: frame-ancestors 'self' *.nvidia.com *.hcaptcha.com hcaptcha.com
+x-middleware-rewrite: /nvidia/nemotron-3-super-120b-a12b/md
+Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400
+Link: </llms.txt>; rel="alternate"; type="text/plain"
+x-markdown-tokens: 22231
+x-envoy-upstream-service-time: 10
+Server: istio-envoy
+x-envoy-decorator-operation: api-catalog-web-ui.default.svc.cluster.local:3001/*
+Content-Length: 88972
+X-EdgeConnect-MidMile-RTT: 22
+X-EdgeConnect-Origin-MEX-Latency: 187
+Date: Fri, 25 Sep 2026 14:32:02 GMT
+Connection: keep-alive
+x-accept: */*
+Country_Code: c_code=BR; Domain=nvidia.com; Path=/; Secure
+nv-host: build.nvidia.com
+Akamai-Cache-Status: Miss from child, Miss from parent
+

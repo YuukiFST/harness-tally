@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+    "parent_id": null,
+    "agent": "build",
+    "title": "Mock summary",
+    "tokens_input": 614,
+    "tokens_output": 10,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  },
+  {
+    "id": "ses_f2702c22fffewqTWQ3wE4AdYTJ",
+    "parent_id": "ses_f2702d9a0ffe3k3KKtl7JfPtOy",
+    "agent": "general",
+    "title": "probe A (@general subagent)",
+    "tokens_input": 307,
+    "tokens_output": 5,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]
