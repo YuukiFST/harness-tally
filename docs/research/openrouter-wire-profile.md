@@ -40,7 +40,7 @@ Where OpenRouter's docs state the answer, the documented answer is given and mar
   Planned per model: p1 pi stream with `include_usage`, p2 without `stream_options`, p3 single tool call, p4 parallel tool calls, p5 non-streaming, p6 `max_tokens` at the published cap, p7 cap + 1, p8 `provider: {only: [<slug>], allow_fallbacks: false}` (`google-ai-studio`, `modelrun/fp4`); then one unknown model id.
   All 17 bodies are in `requests/`; only `gemma-p1-pi-stream-usage.json` was sent.
 - Docs fetched as Markdown with headers, not counted as requests:
-  `meta/docs-api_reference_errors-and-debugging.md`, `meta/docs-guides_best-practices_reasoning-tokens.md`, `meta/docs-api_api-reference_generations_get-request-_-usage-metadata-for-a-generation.md`.
+  `meta/docs-api_errors.md`, `meta/docs-guides_reasoning-tokens.md`, `meta/docs-api_generation-metadata.md`.
   Also cited: the pages already saved under `captures/free-openrouter-pair/meta/` on the same day.
 
 ### Request count
@@ -123,7 +123,7 @@ HTTP/1.1 404 Not Found
 
 Captures: `meta/generation-01-gemma.txt`, `meta/generation-01-gemma-try2.txt`.
 The id in `X-Generation-Id` of a failed request cannot be resolved, so the generation endpoint only helps for completions that ran.
-For those, the endpoint documents `provider_name`, `native_finish_reason`, `upstream_id` and `upstream_inference_cost` (`meta/docs-api_api-reference_generations_get-request-_-usage-metadata-for-a-generation.md:162-186`).
+For those, the endpoint documents `provider_name`, `native_finish_reason`, `upstream_id` and `upstream_inference_cost` (`meta/docs-api_generation-metadata.md:162-186`).
 
 ### PROBE E — 2026-09-25 — `Accept-Encoding` on a catalogue GET
 
@@ -154,8 +154,8 @@ Both models share every answer below, except where a column is named.
 | 3 | Streamed tool calls, single and parallel | **UNVERIFIED**. Not sent |
 | 4 | Non-streaming | **UNVERIFIED**. Not sent |
 | 5 | Usage fields; usage frame carries `finish_reason` | **UNVERIFIED**. Docs: `prompt_tokens_details.cached_tokens`, `prompt_tokens_details.cache_write_tokens` (explicit-cache models only), `completion_tokens_details.reasoning_tokens`, `cost`, `cost_details.upstream_inference_cost` (`usage-accounting.md:82-106`); the usage chunk has one choice repeating `finish_reason` and `native_finish_reason` (`streaming.md:294-302`) |
-| 6 | Reasoning on the wire | **UNVERIFIED**. Docs: `reasoning` (string) and `reasoning_details` (array); `reasoning_content` is an accepted alias of `reasoning` (`meta/docs-guides_best-practices_reasoning-tokens.md:541-545`); reasoning tokens reported as `completion_tokens_details.reasoning_tokens` (`:104`). qwen reasons at `xhigh` by default, gemma not at all (`meta/models-user.txt`) |
-| 7 | `model` echo, `provider` field | **UNVERIFIED**. Docs: `model` is the model "that ends up being used" (`docs-api_reference_overview.md:428`); documented stream chunks carry a `provider` field (`docs-api_reference_errors-and-debugging.md:338`). The 429 body has no `model` field |
+| 6 | Reasoning on the wire | **UNVERIFIED**. Docs: `reasoning` (string) and `reasoning_details` (array); `reasoning_content` is an accepted alias of `reasoning` (`meta/docs-guides_reasoning-tokens.md:541-545`); reasoning tokens reported as `completion_tokens_details.reasoning_tokens` (`:104`). qwen reasons at `xhigh` by default, gemma not at all (`meta/models-user.txt`) |
+| 7 | `model` echo, `provider` field | **UNVERIFIED**. Docs: `model` is the model "that ends up being used" (`docs-api_reference_overview.md:428`); documented stream chunks carry a `provider` field (`docs-api_errors.md:338`). The 429 body has no `model` field |
 | 8 | Error shapes | Upstream-pool 429 (gemma, observed): HTTP 429, `application/json`, no `Retry-After`/`X-RateLimit-*`, body `{"error":{"message":"Provider returned error","code":429,"metadata":{"raw":...,"provider_name":"Google AI Studio","is_byok":false,"provider_error_code":"429","limit_source":"upstream_provider_shared_pool","remedy_hint":...}},"user_id":...}` (probe 01). Unknown model id and `max_tokens` over cap: **UNVERIFIED**, not sent |
 | 9 | Accepted at published cap | Published caps: gemma 32768, qwen 235929 (`meta/models-user.txt`). Accepted at cap: **UNVERIFIED**. Docs: with `max_tokens` set, OpenRouter "will only route to providers that support a response of that length" (`docs-guides_routing_provider-selection.md:79`), so over-cap should fail routing on a one-endpoint free model rather than be clamped; not observed |
 | 10 | `Accept-Encoding: identity` honoured | **Yes** on a catalogue GET and on the 429 JSON body: `identity` gives plain bytes; offering `gzip, deflate, br` gives `Content-Encoding: gzip` (probe E). SSE body: **UNVERIFIED** |
