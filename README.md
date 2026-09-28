@@ -41,4 +41,12 @@ pip install "harness-tally @ git+https://github.com/YuukiFST/harness-tally@<comm
 python -m pip install -e ".[dev]" && python -m pytest
 ```
 
+Consumers pin the full commit SHA that tag `v0.1.0` points at, never the tag name or a branch, and read the installed version from `importlib.metadata.version("harness-tally")`.
+
+## One session per build
+
+A build runs as one long harness session behind one proxy run id.
+When the gateway refuses a request (`refused` in `summary.json` grows), or the daily free quota runs out, the caller stops the harness, waits, and resumes the same session with the proxy restarted on the same `--run-id` and `--out`.
+Decide this from the records, not from the harness's exit code: pi 0.80.10 exits 0 after a refused request ([live smoke](docs/research/live-smoke.md)).
+
 Design notes and the decisions behind them are in `docs/` and in [the map](https://github.com/YuukiFST/harness-tally/issues/1).
