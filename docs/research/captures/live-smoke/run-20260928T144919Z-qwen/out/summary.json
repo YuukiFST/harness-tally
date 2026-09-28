@@ -1,0 +1,31 @@
+{
+  "schema": "harness-tally/summary/1",
+  "run_id": "smoke-20260928T144919Z",
+  "first_utc": "2026-09-28T14:49:35.209+00:00",
+  "last_utc": "2026-09-28T14:49:35.209+00:00",
+  "requests": {
+    "total": 1,
+    "completions": 1,
+    "answered": 1,
+    "steps": 1,
+    "refused": 0,
+    "by_status": {
+      "200": 1
+    },
+    "refused_by_limit_source": {}
+  },
+  "tokens": {
+    "input": 1593,
+    "cached": 0,
+    "cache_write": 0,
+    "output": 25,
+    "reasoning": 23,
+    "total": 1618
+  },
+  "cost": 0,
+  "tool_calls": 0,
+  "models_echoed": {
+    "qwen/qwen3.8-27b:free": 1
+  },
+  "flags": {}
+}

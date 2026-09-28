@@ -1,0 +1,17 @@
+{
+  "utc": "20260928T145731Z",
+  "model": "google/gemma-4-31b-it:free",
+  "pi_exit": 0,
+  "proxy_exit": 0,
+  "ready": {
+    "event": "ready",
+    "port": 55354,
+    "base_url": "http://127.0.0.1:55354",
+    "pid": 2436,
+    "run_id": "smoke-20260928T145731Z",
+    "upstream_auth": "injected",
+    "harness_tally_version": "0.1.0"
+  },
+  "prompt": "Reply with the single word: ok",
+  "budget": "1 completion, pi retry disabled"
+}

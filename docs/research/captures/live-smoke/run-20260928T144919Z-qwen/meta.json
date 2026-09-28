@@ -1,0 +1,17 @@
+{
+  "utc": "20260928T144919Z",
+  "model": "qwen/qwen3.8-27b:free",
+  "pi_exit": 0,
+  "proxy_exit": 0,
+  "ready": {
+    "event": "ready",
+    "port": 54558,
+    "base_url": "http://127.0.0.1:54558",
+    "pid": 13268,
+    "run_id": "smoke-20260928T144919Z",
+    "upstream_auth": "injected",
+    "harness_tally_version": "0.1.0"
+  },
+  "prompt": "Reply with the single word: ok",
+  "budget": "1 completion, pi retry disabled"
+}
