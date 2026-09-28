@@ -13,3 +13,11 @@ utc	round	model	status	limit_source	ttfb_s	used_after	file
 20260928T123159Z	6	gemma	200	-	1.041108	1	attempts/20260928T123159Z-gemma.txt
 20260928T125207Z	7	qwen	429	upstream_provider_shared_pool	1.375600	2	attempts/20260928T125207Z-qwen.txt
 20260928T125222Z	7	gemma	429	upstream_provider_shared_pool	0.949798	2	attempts/20260928T125222Z-gemma.txt
+20260928T131239Z	8	qwen	429	upstream_provider_shared_pool	0.816089	2	attempts/20260928T131239Z-qwen.txt
+20260928T131249Z	8	gemma	429	upstream_provider_shared_pool	0.577803	2	attempts/20260928T131249Z-gemma.txt
+20260928T133301Z	9	qwen	429	upstream_provider_shared_pool	1.184353	2	attempts/20260928T133301Z-qwen.txt
+20260928T133310Z	9	gemma	429	upstream_provider_shared_pool	0.443150	2	attempts/20260928T133310Z-gemma.txt
+20260928T135318Z	10	qwen	429	upstream_provider_shared_pool	0.674817	2	attempts/20260928T135318Z-qwen.txt
+20260928T135326Z	10	gemma	429	upstream_provider_shared_pool	0.497349	2	attempts/20260928T135326Z-gemma.txt
+20260928T141333Z	11	qwen	429	upstream_provider_shared_pool	0.979696	2	attempts/20260928T141333Z-qwen.txt
+20260928T141346Z	11	gemma	429	upstream_provider_shared_pool	0.418420	2	attempts/20260928T141346Z-gemma.txt
