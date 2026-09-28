@@ -1,0 +1,2 @@
+# Wire captures, request bodies and goldens are byte-exact evidence: never convert line endings.
+* -text
